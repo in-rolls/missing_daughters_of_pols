@@ -7,12 +7,12 @@ Using data from the Indian Government Website for the [Lok Sabha](https://sansad
 
 | Lok Sabha| Proportion Daughters |
 |---|---|
-| 12 | 0.461634 |
-| 13 | 0.464026 |
-| 14 | 0.462615 |
-| 15 | 0.469007 |
-| 16 | 0.469267 |
-| 17 | 0.451103 |
+| 12 | 0.46 |
+| 13 | 0.46 |
+| 14 | 0.46 |
+| 15 | 0.47 |
+| 16 | 0.47 |
+| 17 | 0.45 |
 
 | Lok Sabha | numberOfSons | numberOfDaughters | sex_ratio |
 |---|---|---|---|
