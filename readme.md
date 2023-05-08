@@ -35,3 +35,9 @@ Using data from the Indian Government Website for the [Lok Sabha](https://sansad
 | JD(U)      | 86.0         | 64.0              | 1.34  |
 | BJD        | 81.0         | 86.0              | 0.94  |
 | AITC       | 78.0         | 60.0              | 1.30  |
+
+
+### Data
+
+* Legislative Assembly: https://haryanaassembly.gov.in/mla-details/?id=53366
+
