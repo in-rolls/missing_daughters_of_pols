@@ -4,6 +4,20 @@ Indian politicians get a bad rap. They are thought to be corrupt, inept, and sex
 
 Using data from the Indian Government Website for the [Lok Sabha](https://sansad.in/ls), we find the following:
 
+1. Sex Ratio across the 12--17th Lok Sabhas range from 104 to 114 (current LS).
+2. Proportion daughters ranges from .45 ~ .47
+3. No real diff. b/w BJP vs. rest
+
+
+### Data
+
+* [data](data/)
+
+### Scripts
+
+* [python notebook](https://github.com/in-rolls/missing_daughters_of_pols/blob/main/pol_daughters.ipynb)
+
+### Key Results
 
 | Lok Sabha| Proportion Daughters |
 |---|---|
@@ -35,9 +49,4 @@ Using data from the Indian Government Website for the [Lok Sabha](https://sansad
 | JD(U)      | 86.0         | 64.0              | 1.34  |
 | BJD        | 81.0         | 86.0              | 0.94  |
 | AITC       | 78.0         | 60.0              | 1.30  |
-
-
-### Data
-
-* Legislative Assembly: https://haryanaassembly.gov.in/mla-details/?id=53366
 
