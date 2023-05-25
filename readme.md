@@ -8,6 +8,8 @@ Using data from the Indian Government Website for the [Lok Sabha](https://sansad
 2. Proportion daughters ranges from .45 ~ .47
 3. No real diff. b/w BJP vs. rest
 
+To put the numbers in context, we are looking at a shortfall of about 3--4%. Across ~1100 kids per session, it implies about 35+ missing daughters of the 500 or so MPs. Here's another way to look at the numbers from the 17th LS: If LS were a state, it would be the sixth worst (based on the sex ratio at birth established using [NFHS-5](https://en.wikipedia.org/wiki/List_of_states_and_union_territories_of_India_by_sex_ratio)). 
+
 
 ### Data
 
