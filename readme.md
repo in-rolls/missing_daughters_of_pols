@@ -79,5 +79,4 @@ Table 5: Sex Ratio by Number of Children
 | 3      | .47  | 380      |
 | 4      | .52  | 200      |
 | 5      | .55  | 104      |
-| 6      | .57  | 33       |
 
