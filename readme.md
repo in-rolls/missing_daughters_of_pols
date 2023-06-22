@@ -56,17 +56,17 @@ Table 3: Sex Ratio by LS Session
 
 Table 4: Party-wise Sex Ratio for Cases Where We Have Enough Data
 
-| Party   |   Number of Sons |   Number of Daughters |   sex ratio |
-|:-------------|---------------:|--------------------:|------------:|
-| BSP          |            103 |                  71 |    1.45   |
-| BJP          |            858 |                 751 |    1.14  |
-| CPI(M)       |             74 |                  67 |    1.10  |
-| SP           |             80 |                  75 |    1.07 |
-| TDP          |             64 |                  61 |    1.05 |
-| INC          |            470 |                 493 |    0.95 |
-| DMK          |             49 |                  52 |    0.94 |
-| AIADMK       |             57 |                  61 |    0.93 |
-| BJD          |             45 |                  54 |    0.83 |
+| partySname | numberOfSons | numberOfDaughters | sex_ratio |
+|------------|--------------|-------------------|-----------|
+| BSP        | 103.0        | 71.0              | 1.45  |
+| JD(U)      | 66.0         | 47.0              | 1.40  |
+| BJP        | 858.0        | 751.0             | 1.14  |
+| CPI(M)     | 74.0         | 67.0              | 1.10  |
+| SP         | 80.0         | 75.0              | 1.07  |
+| TDP        | 64.0         | 61.0              | 1.05  |
+| INC        | 470.0        | 493.0             | 0.95  |
+| DMK        | 49.0         | 52.0              | 0.94  |
+| AIADMK     | 57.0         | 61.0              | 0.93  |
 
 
 Table 5: Sex Ratio by Number of Children
