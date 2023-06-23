@@ -6,7 +6,7 @@ Against this backdrop, I examine whether India's political elites have missing d
 
 While the aggregate numbers are bad enough, the sex ratio and the proportion of female children for the 17th Lok Sabha are eye-catchingly bleak at 114 and .44 respectively (see Tables 2 and 3). If the 17th LS were a state, it would have the sixth worst (at birth; established using [NFHS-5](https://en.wikipedia.org/wiki/List_of_states_and_union_territories_of_India_by_sex_ratio)).
 
-There is a positive (but weak) correlation (~ .14) between the number of kids and the proportion of female children, suggesting male stopping rules (see [here](https://github.com/soodoku/prop_male)). There is some evidence that the sex ratio is more skewed among BJP legislators than others though we cannot be confident that it isn't because of chance alone (see Table 4 but also the [notebook](https://github.com/in-rolls/missing_daughters_of_pols/blob/main/pol_daughters.ipynb) for analyses on the proportion of daughters by party, etc.) Lastly, Table 5 shows that the sex ratio is more skewed among legislators with smaller families.
+There is a positive (but weak) correlation (~ .14) between the number of kids and the proportion of female children, suggesting male stopping rules (see [here](https://github.com/soodoku/prop_male)). There is some evidence that the sex ratio is more skewed among BJP legislators than others though we cannot be confident that it isn't because of chance alone (see Table 4 but also the [notebook](https://github.com/in-rolls/missing_daughters_of_pols/blob/main/scripts/03_ls_daughters.ipynb) for analyses on the proportion of daughters by party, etc.) Lastly, Table 5 shows that the sex ratio is more skewed among legislators with smaller families.
 
 
 ### Data
@@ -15,7 +15,7 @@ There is a positive (but weak) correlation (~ .14) between the number of kids an
 
 ### Scripts
 
-* [python notebook](https://github.com/in-rolls/missing_daughters_of_pols/blob/main/pol_daughters.ipynb)
+* [python notebook](https://github.com/in-rolls/missing_daughters_of_pols/blob/main/scripts/03_ls_daughters.ipynb)
 
 ### Key Results
 
