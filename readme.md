@@ -45,7 +45,7 @@ Lok Sabha | Proportion Daughters
 
 Table 3: Sex Ratio by LS Session
 
-|   Lok Sabha |   Number of Sons |   Number of Daughters |   sex ratio |
+|   Lok Sabha |   Number of Sons |   Number of Daughters |   Sex Ratio |
 |-----:|---------------:|--------------------:|------------:|
 |   12 |            472 |                 444 |    1.06  |
 |   13 |            775 |                 742 |    1.04  |
@@ -56,7 +56,7 @@ Table 3: Sex Ratio by LS Session
 
 Table 4: Party-wise Sex Ratio for Cases Where We Have Enough Data
 
-| partySname | numberOfSons | numberOfDaughters | sex_ratio |
+| Party | Number of Sons | Number of Daughters | Sex Ratio |
 |------------|--------------|-------------------|-----------|
 | BSP        | 103.0        | 71.0              | 1.45  |
 | JD(U)      | 66.0         | 47.0              | 1.40  |
