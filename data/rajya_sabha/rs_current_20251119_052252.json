@@ -1,0 +1,89 @@
+{
+  "members": [
+    {
+      "mpcode": 10,
+      "name": "Prem Chand Gupta",
+      "party": "Rashtriya Janata Dal",
+      "state": "Bihar",
+      "numberOfSons": 2,
+      "numberOfDaughters": 1,
+      "spouse": "Shrimati Sarla Gupta",
+      "qualification": "Graduate (Economics) \r\nEducated at Vaish College, Bhiwani and D.N. College, Hissar, Haryana",
+      "dateOfBirth": "1950-02-03T00:00:00",
+      "profession": ""
+    },
+    {
+      "mpcode": 74,
+      "name": "Kapil Sibal",
+      "party": "Independent & Others",
+      "state": "Uttar Pradesh",
+      "numberOfSons": 2,
+      "numberOfDaughters": null,
+      "spouse": "Shrimati Promilaa Sibal",
+      "qualification": "M.A. (History) from St.Stephen's College, University of Delhi\r\nLL.M. from Harvard Law School, U.S.A.",
+      "dateOfBirth": "1948-08-08T00:00:00",
+      "profession": ""
+    },
+    {
+      "mpcode": 109,
+      "name": "Ram Gopal Yadav",
+      "party": "Samajwadi Party",
+      "state": "Uttar Pradesh",
+      "numberOfSons": 2,
+      "numberOfDaughters": 1,
+      "spouse": "Late Shrimati Phoolan Devi",
+      "qualification": "M.Sc. (Physics), M.A. (Political Science), Ph.D.\r\nEducated at Agra University, Agra and Kanpur University, Kanpur",
+      "dateOfBirth": "1946-06-29T00:00:00",
+      "profession": ""
+    },
+    {
+      "mpcode": 175,
+      "name": "Rajeev Shukla",
+      "party": "Indian National Congress",
+      "state": "Chhattisgarh",
+      "numberOfSons": null,
+      "numberOfDaughters": 1,
+      "spouse": "Shrimati Anuradha Prasad Shukla",
+      "qualification": "M.A., LL.B. \r\nEducated at P.P.N. College, Kanpur University, Christ Church College, Kanpur University and V.S.S.D. College of Law, Kanpur University",
+      "dateOfBirth": "1957-07-20T00:00:00",
+      "profession": ""
+    },
+    {
+      "mpcode": 177,
+      "name": "Tiruchi Siva",
+      "party": "Dravida Munnetra Kazhagam",
+      "state": "Tamil Nadu",
+      "numberOfSons": 1,
+      "numberOfDaughters": 2,
+      "spouse": "Shrimati S.Devikarani",
+      "qualification": "M.A. (Eng.), B.L.\r\nEducated at Periyar E.V.R. College, Madras University and Tiruchi Law College, Bharathidasan University",
+      "dateOfBirth": "1954-05-15T00:00:00",
+      "profession": ""
+    },
+    {
+      "mpcode": 208,
+      "name": "Praful Patel",
+      "party": "Nationalist Congress Party",
+      "state": "Maharashtra",
+      "numberOfSons": 1,
+      "numberOfDaughters": 3,
+      "spouse": "Shrimati Varsha Patel",
+      "qualification": "B.Com.\t\r\nEducated at Bombay University, Mumbai, Maharashtra",
+      "dateOfBirth": "1957-02-17T00:00:00",
+      "profession": ""
+    },
+    {
+      "mpcode": 238,
+      "name": "Nabam Rebia",
+      "party": "Bharatiya Janata Party",
+      "state": "Arunachal Pradesh",
+      "numberOfSons": 2,
+      "numberOfDaughters": 2,
+      "spouse": "Shrimati Nabam Dumsap",
+      "qualification": "B.A. (Hons.), LL.B. \r\nEducated at  J.N. College, Pasighat (Arunachal Pradesh), Panjab University and  Delhi University",
+      "dateOfBirth": "1962-08-10T00:00:00",
+      "profession": ""
+    }
+  ],
+  "count": 7
+}

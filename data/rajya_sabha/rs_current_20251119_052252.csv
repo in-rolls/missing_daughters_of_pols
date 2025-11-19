@@ -1,0 +1,15 @@
+mpcode,name,party,state,numberOfSons,numberOfDaughters,spouse,qualification,dateOfBirth,profession
+10,Prem Chand Gupta,Rashtriya Janata Dal,Bihar,2.0,1.0,Shrimati Sarla Gupta,"Graduate (Economics) 
+Educated at Vaish College, Bhiwani and D.N. College, Hissar, Haryana",1950-02-03T00:00:00,
+74,Kapil Sibal,Independent & Others,Uttar Pradesh,2.0,,Shrimati Promilaa Sibal,"M.A. (History) from St.Stephen's College, University of Delhi
+LL.M. from Harvard Law School, U.S.A.",1948-08-08T00:00:00,
+109,Ram Gopal Yadav,Samajwadi Party,Uttar Pradesh,2.0,1.0,Late Shrimati Phoolan Devi,"M.Sc. (Physics), M.A. (Political Science), Ph.D.
+Educated at Agra University, Agra and Kanpur University, Kanpur",1946-06-29T00:00:00,
+175,Rajeev Shukla,Indian National Congress,Chhattisgarh,,1.0,Shrimati Anuradha Prasad Shukla,"M.A., LL.B. 
+Educated at P.P.N. College, Kanpur University, Christ Church College, Kanpur University and V.S.S.D. College of Law, Kanpur University",1957-07-20T00:00:00,
+177,Tiruchi Siva,Dravida Munnetra Kazhagam,Tamil Nadu,1.0,2.0,Shrimati S.Devikarani,"M.A. (Eng.), B.L.
+Educated at Periyar E.V.R. College, Madras University and Tiruchi Law College, Bharathidasan University",1954-05-15T00:00:00,
+208,Praful Patel,Nationalist Congress Party,Maharashtra,1.0,3.0,Shrimati Varsha Patel,"B.Com.	
+Educated at Bombay University, Mumbai, Maharashtra",1957-02-17T00:00:00,
+238,Nabam Rebia,Bharatiya Janata Party,Arunachal Pradesh,2.0,2.0,Shrimati Nabam Dumsap,"B.A. (Hons.), LL.B. 
+Educated at  J.N. College, Pasighat (Arunachal Pradesh), Panjab University and  Delhi University",1962-08-10T00:00:00,
