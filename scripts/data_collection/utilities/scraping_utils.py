@@ -196,6 +196,7 @@ def extract_children_from_text(text: str) -> Dict[str, Optional[int]]:
     - "2 sons and 1 daughter"
     - "Son: 2, Daughter: 1"
     - "3 sons, 2 daughters"
+    - "1 son", "2 daughters"
 
     Args:
         text: Biographical text
@@ -212,13 +213,13 @@ def extract_children_from_text(text: str) -> Dict[str, Optional[int]]:
 
     text = text.lower()
 
-    # Pattern 1: "N son(s)"
-    son_match = re.search(r'(\d+)\s*sons?(?:\s|,|\.)', text)
+    # Pattern 1: "N son(s)" - match word boundaries to avoid false matches
+    son_match = re.search(r'(\d+)\s*sons?\b', text)
     if son_match:
         result['sons'] = int(son_match.group(1))
 
-    # Pattern 2: "N daughter(s)"
-    daughter_match = re.search(r'(\d+)\s*daughters?(?:\s|,|\.)', text)
+    # Pattern 2: "N daughter(s)" - match word boundaries
+    daughter_match = re.search(r'(\d+)\s*daughters?\b', text)
     if daughter_match:
         result['daughters'] = int(daughter_match.group(1))
 
@@ -231,6 +232,14 @@ def extract_children_from_text(text: str) -> Dict[str, Optional[int]]:
     daughter_colon = re.search(r'daughters?:\s*(\d+)', text)
     if daughter_colon:
         result['daughters'] = int(daughter_colon.group(1))
+
+    # Pattern 5: "son and daughter" (implies 1 of each)
+    if 'son and daughter' in text and result['sons'] is None and result['daughters'] is None:
+        # Check if there's a number before "son"
+        one_each = re.search(r'\b(?:has\s+)?(?:a\s+)?son\s+and\s+(?:a\s+)?daughter\b', text)
+        if one_each:
+            result['sons'] = 1
+            result['daughters'] = 1
 
     return result
 
