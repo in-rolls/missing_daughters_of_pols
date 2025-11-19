@@ -234,59 +234,34 @@ class RajasthanAssemblyScraper:
         logger.info(f"  Fetching details for: {member.get('name', 'Unknown')}")
 
         try:
-            # Try multiple approaches to get member details
-
-            # Approach 1: Try direct URL using member ID if available
+            # Use the MemberBioData.aspx page with member ID
             if member.get('member_id'):
-                # Try different URL patterns that might work
-                possible_urls = [
-                    f"{self.base_url}/HamareVidhayak/MemberDetails.aspx?MemberID={member['member_id']}",
-                    f"{self.base_url}/Containers/Members/MemberDetails.aspx?id={member['member_id']}",
-                    f"{self.base_url}/HamareVidhayak/MemberProfile.aspx?id={member['member_id']}",
-                ]
+                biodata_url = f"{self.base_url}/Containers/Members/MemberBioData.aspx?MemberID={member['member_id']}"
 
-                for url in possible_urls:
-                    try:
-                        response = self.session.get(url, timeout=15, allow_redirects=True)
-                        if response.status_code == 200 and len(response.content) > 1000:
-                            # Looks like we got a valid page
-                            logger.info(f"  Found details page at: {url}")
-                            detail_soup = BeautifulSoup(response.content, 'html.parser')
-                            details = self._parse_member_detail_page(detail_soup)
-
-                            if details:  # If we got meaningful data
-                                member.update(details)
-                                time.sleep(0.5)
-                                return member
-                    except:
-                        pass
-
-            # Approach 2: ASP.NET postback (more complex, might not work without proper session)
-            if member.get('detail_link_type') == 'postback':
                 try:
-                    # Get fresh viewstate
-                    main_response = self.session.get(self.members_url, timeout=30)
-                    main_soup = BeautifulSoup(main_response.content, 'html.parser')
-                    viewstate = self.get_viewstate_data(main_soup)
+                    response = self.session.get(biodata_url, timeout=15, allow_redirects=True)
 
-                    # Perform postback
-                    viewstate['__EVENTTARGET'] = member['detail_link_target']
-
-                    response = self.session.post(self.members_url, data=viewstate, timeout=30)
-
-                    if response.status_code == 200:
+                    # Check if we got a valid page (not redirected to error page)
+                    if response.status_code == 200 and 'error' not in response.url.lower():
                         detail_soup = BeautifulSoup(response.content, 'html.parser')
                         details = self._parse_member_detail_page(detail_soup)
 
-                        if details:
+                        if details:  # If we got meaningful data
                             member.update(details)
-                            time.sleep(0.5)
-                            return member
+                            logger.debug(f"  Successfully fetched biodata")
+                        else:
+                            logger.debug(f"  Biodata page loaded but no details found")
+
+                        time.sleep(0.5)
+                        return member
+                    else:
+                        logger.debug(f"  Biodata page unavailable (redirected to: {response.url})")
+
                 except Exception as e:
-                    logger.debug(f"  Postback approach failed: {e}")
+                    logger.debug(f"  Error accessing biodata: {e}")
 
             # If no detail page found, just return member with existing data
-            logger.debug(f"  No detail page found, using main page data only")
+            logger.debug(f"  Using main page data only")
             time.sleep(0.3)
             return member
 
@@ -295,133 +270,94 @@ class RajasthanAssemblyScraper:
             return member
 
     def _parse_member_detail_page(self, soup):
-        """Parse detailed information from a member's profile page."""
+        """Parse detailed information from a member's biodata page."""
 
         details = {}
 
-        # Get all text content
-        page_text = soup.get_text()
+        # The biodata page uses specific span IDs for each field
+        # Look for the children data span
+        children_span = soup.find('span', id='ContentPlaceHolder1_LblChildren')
+        if children_span:
+            children_text = children_span.get_text(strip=True)
+            if children_text:
+                details['children_info'] = children_text
 
-        # Look for specific fields
-        # The page is in Hindi, so we need to look for both English and Hindi patterns
+                # Parse the children data
+                # Format examples: "1 पुत्र एवं 2 पुत्री", "2 पुत्र", "3 पुत्री", etc.
+                children_data = self._parse_children_info(children_text)
+                details.update(children_data)
 
-        # Extract all table rows if there's a detail table
-        tables = soup.find_all('table')
+        # Also extract other useful fields from the biodata page
+        field_mappings = {
+            'ContentPlaceHolder1_LblName': 'full_name',
+            'ContentPlaceHolder1_LblFName': 'father_name',
+            'ContentPlaceHolder1_LblMName': 'mother_name',
+            'ContentPlaceHolder1_LblSpouseName': 'spouse_name',
+            'ContentPlaceHolder1_LblMarriageDate': 'marriage_date',
+            'ContentPlaceHolder1_LblEducation': 'education',
+            'ContentPlaceHolder1_LblOccupation': 'profession',
+            'ContentPlaceHolder1_LblConstituency': 'constituency',
+            'ContentPlaceHolder1_LblCategory': 'category',
+            'ContentPlaceHolder1_LblParty': 'party',
+            'ContentPlaceHolder1_LblDOB': 'date_of_birth',
+            'ContentPlaceHolder1_LblPOB': 'place_of_birth',
+        }
 
-        for table in tables:
-            rows = table.find_all('tr')
-
-            for row in rows:
-                cells = row.find_all(['td', 'th'])
-
-                if len(cells) >= 2:
-                    label = cells[0].get_text(strip=True).lower()
-                    value = cells[1].get_text(strip=True)
-
-                    # Map common fields
-                    if 'name' in label or 'नाम' in label:
-                        details['full_name'] = value
-                    elif 'constituency' in label or 'निर्वाचन क्षेत्र' in label:
-                        details['constituency'] = value
-                    elif 'party' in label or 'पार्टी' in label or 'दल' in label:
-                        details['party'] = value
-                    elif 'father' in label or 'पिता' in label:
-                        details['father_name'] = value
-                    elif 'mother' in label or 'माता' in label:
-                        details['mother_name'] = value
-                    elif 'spouse' in label or 'wife' in label or 'husband' in label or 'पत्नी' in label or 'पति' in label:
-                        details['spouse_name'] = value
-                    elif 'education' in label or 'शिक्षा' in label:
-                        details['education'] = value
-                    elif 'profession' in label or 'व्यवसाय' in label or 'पेशा' in label:
-                        details['profession'] = value
-                    elif 'birth' in label or 'जन्म' in label:
-                        details['birth_info'] = value
-                    elif 'address' in label or 'पता' in label:
-                        if 'permanent' in label or 'स्थायी' in label:
-                            details['permanent_address'] = value
-                        elif 'local' in label or 'स्थानीय' in label:
-                            details['local_address'] = value
-                        else:
-                            details['address'] = value
-                    elif 'email' in label or 'ई-मेल' in label:
-                        details['email'] = value
-                    elif 'mobile' in label or 'phone' in label or 'मोबाइल' in label or 'फोन' in label:
-                        details['phone'] = value
-                    elif 'children' in label or 'child' in label or 'बच्चे' in label or 'संतान' in label:
-                        details['children_info'] = value
-                        # Try to parse children data
-                        children_data = self._parse_children_info(value)
-                        details.update(children_data)
-                    elif 'son' in label or 'पुत्र' in label or 'बेटा' in label:
-                        details['sons_info'] = value
-                        # Try to extract count
-                        son_count = self._extract_count(value)
-                        if son_count is not None:
-                            details['sons'] = son_count
-                    elif 'daughter' in label or 'पुत्री' in label or 'बेटी' in label:
-                        details['daughters_info'] = value
-                        # Try to extract count
-                        daughter_count = self._extract_count(value)
-                        if daughter_count is not None:
-                            details['daughters'] = daughter_count
-
-        # Also try to extract from general page text if not found in tables
-        if 'children_info' not in details:
-            # Look for children patterns in the full text
-            children_patterns = [
-                r'(?:children|बच्चे|संतान)[:\s-]*([^\n]+)',
-                r'(?:son|पुत्र|बेटा)[:\s-]*([^\n]+)',
-                r'(?:daughter|पुत्री|बेटी)[:\s-]*([^\n]+)'
-            ]
-
-            for pattern in children_patterns:
-                match = re.search(pattern, page_text, re.IGNORECASE)
-                if match:
-                    info = match.group(1).strip()
-                    if 'son' in pattern or 'पुत्र' in pattern:
-                        details['sons_info'] = info
-                        count = self._extract_count(info)
-                        if count is not None:
-                            details['sons'] = count
-                    elif 'daughter' in pattern or 'पुत्री' in pattern:
-                        details['daughters_info'] = info
-                        count = self._extract_count(info)
-                        if count is not None:
-                            details['daughters'] = count
-                    else:
-                        details['children_info'] = info
+        for span_id, field_name in field_mappings.items():
+            span = soup.find('span', id=span_id)
+            if span:
+                value = span.get_text(strip=True)
+                if value:
+                    details[field_name] = value
 
         return details
 
     def _parse_children_info(self, text):
-        """Parse children information from text (may be in Hindi or English)."""
+        """Parse children information from text (may be in Hindi or English).
+
+        Common formats:
+        - "1 पुत्र एवं 2 पुत्री" (1 son and 2 daughters)
+        - "2 पुत्र" (2 sons)
+        - "3 पुत्री" (3 daughters)
+        - "2 sons, 1 daughter"
+        """
 
         data = {}
 
         if not text:
             return data
 
-        # Try to extract counts
-        # Look for patterns like "2 sons, 1 daughter" or "2 बेटे, 1 बेटी"
-
-        # English patterns
-        son_match = re.search(r'(\d+)\s*sons?', text, re.IGNORECASE)
-        if son_match:
-            data['sons'] = int(son_match.group(1))
-
-        daughter_match = re.search(r'(\d+)\s*daughters?', text, re.IGNORECASE)
-        if daughter_match:
-            data['daughters'] = int(daughter_match.group(1))
-
         # Hindi patterns (using Devanagari script)
-        son_hindi = re.search(r'(\d+)\s*(?:पुत्र|बेटे?|बेटा)', text)
+        # पुत्र = son, पुत्री = daughter
+        son_hindi = re.search(r'(\d+)\s*पुत्र', text)
         if son_hindi:
             data['sons'] = int(son_hindi.group(1))
 
-        daughter_hindi = re.search(r'(\d+)\s*(?:पुत्री|बेटी)', text)
+        daughter_hindi = re.search(r'(\d+)\s*पुत्री', text)
         if daughter_hindi:
             data['daughters'] = int(daughter_hindi.group(1))
+
+        # Also try alternative Hindi words: बेटा/बेटे = son, बेटी = daughter
+        if 'sons' not in data:
+            son_alt = re.search(r'(\d+)\s*(?:बेटे?|बेटा)', text)
+            if son_alt:
+                data['sons'] = int(son_alt.group(1))
+
+        if 'daughters' not in data:
+            daughter_alt = re.search(r'(\d+)\s*बेटी', text)
+            if daughter_alt:
+                data['daughters'] = int(daughter_alt.group(1))
+
+        # English patterns
+        if 'sons' not in data:
+            son_match = re.search(r'(\d+)\s*sons?', text, re.IGNORECASE)
+            if son_match:
+                data['sons'] = int(son_match.group(1))
+
+        if 'daughters' not in data:
+            daughter_match = re.search(r'(\d+)\s*daughters?', text, re.IGNORECASE)
+            if daughter_match:
+                data['daughters'] = int(daughter_match.group(1))
 
         return data
 
