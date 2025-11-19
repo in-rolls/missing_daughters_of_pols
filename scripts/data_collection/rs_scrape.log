@@ -1,0 +1,102 @@
+
+======================================================================
+RAJYA SABHA CURRENT MEMBERS SCRAPER
+Using WORKING API: rsdoc.nic.in
+======================================================================
+
+INFO: Scraping Rajya Sabha members from ID 1 to 3000
+INFO: This will take a while... Progress updates every 100 IDs
+INFO: Progress: Checked 100/3000 IDs | Found: 2 | Empty: 6 | Errors: 0
+INFO: Progress: Checked 200/3000 IDs | Found: 5 | Empty: 6 | Errors: 0
+INFO: Progress: Checked 300/3000 IDs | Found: 7 | Empty: 7 | Errors: 0
+INFO: Progress: Checked 400/3000 IDs | Found: 7 | Empty: 43 | Errors: 0
+INFO: Progress: Checked 500/3000 IDs | Found: 7 | Empty: 59 | Errors: 0
+INFO: Progress: Checked 600/3000 IDs | Found: 8 | Empty: 63 | Errors: 0
+INFO: Progress: Checked 700/3000 IDs | Found: 8 | Empty: 73 | Errors: 0
+INFO: Progress: Checked 800/3000 IDs | Found: 8 | Empty: 80 | Errors: 0
+INFO: Progress: Checked 900/3000 IDs | Found: 9 | Empty: 82 | Errors: 0
+INFO: Progress: Checked 1000/3000 IDs | Found: 9 | Empty: 86 | Errors: 0
+INFO:   Found 10 members... (checking ID 1034)
+INFO: Progress: Checked 1100/3000 IDs | Found: 10 | Empty: 93 | Errors: 0
+INFO: Progress: Checked 1200/3000 IDs | Found: 10 | Empty: 99 | Errors: 0
+INFO: Progress: Checked 1300/3000 IDs | Found: 10 | Empty: 105 | Errors: 0
+INFO: Progress: Checked 1400/3000 IDs | Found: 10 | Empty: 113 | Errors: 0
+INFO: Progress: Checked 1500/3000 IDs | Found: 10 | Empty: 115 | Errors: 0
+INFO: Progress: Checked 1600/3000 IDs | Found: 10 | Empty: 119 | Errors: 0
+INFO: Progress: Checked 1700/3000 IDs | Found: 10 | Empty: 121 | Errors: 0
+INFO: Progress: Checked 1800/3000 IDs | Found: 10 | Empty: 122 | Errors: 0
+INFO: Progress: Checked 1900/3000 IDs | Found: 11 | Empty: 125 | Errors: 0
+INFO: Progress: Checked 2000/3000 IDs | Found: 15 | Empty: 128 | Errors: 0
+INFO: Progress: Checked 2100/3000 IDs | Found: 18 | Empty: 135 | Errors: 0
+INFO:   Found 20 members... (checking ID 2181)
+INFO: Progress: Checked 2200/3000 IDs | Found: 22 | Empty: 146 | Errors: 0
+INFO:   Found 30 members... (checking ID 2268)
+INFO: Progress: Checked 2300/3000 IDs | Found: 35 | Empty: 151 | Errors: 0
+INFO:   Found 40 members... (checking ID 2353)
+INFO: Progress: Checked 2400/3000 IDs | Found: 47 | Empty: 151 | Errors: 0
+INFO:   Found 50 members... (checking ID 2425)
+INFO:   Found 60 members... (checking ID 2445)
+INFO:   Found 70 members... (checking ID 2458)
+INFO:   Found 80 members... (checking ID 2472)
+INFO:   Found 90 members... (checking ID 2488)
+INFO: Progress: Checked 2500/3000 IDs | Found: 98 | Empty: 155 | Errors: 0
+INFO:   Found 100 members... (checking ID 2505)
+INFO:   Found 110 members... (checking ID 2516)
+INFO:   Found 120 members... (checking ID 2529)
+INFO:   Found 130 members... (checking ID 2539)
+INFO:   Found 140 members... (checking ID 2549)
+INFO:   Found 150 members... (checking ID 2561)
+INFO:   Found 160 members... (checking ID 2572)
+INFO:   Found 170 members... (checking ID 2583)
+INFO:   Found 180 members... (checking ID 2593)
+INFO: Progress: Checked 2600/3000 IDs | Found: 187 | Empty: 157 | Errors: 0
+INFO:   Found 190 members... (checking ID 2603)
+INFO:   Found 200 members... (checking ID 2613)
+INFO:   Found 210 members... (checking ID 2623)
+INFO:   Found 220 members... (checking ID 2634)
+INFO:   Found 230 members... (checking ID 2646)
+INFO: Progress: Checked 2700/3000 IDs | Found: 234 | Empty: 199 | Errors: 10
+INFO: Progress: Checked 2800/3000 IDs | Found: 234 | Empty: 299 | Errors: 10
+INFO: Progress: Checked 2900/3000 IDs | Found: 234 | Empty: 399 | Errors: 10
+INFO: Progress: Checked 3000/3000 IDs | Found: 234 | Empty: 499 | Errors: 10
+INFO: 
+Collection complete!
+INFO: Total members found: 234
+INFO: Empty responses: 499
+INFO: Errors: 10
+INFO: 
+Saved JSON to: /home/user/missing_daughters_of_pols/scripts/data_collection/../../data/rajya_sabha/rs_current_20251119_034642.json
+INFO: Saved CSV to: /home/user/missing_daughters_of_pols/scripts/data_collection/../../data/rajya_sabha/rs_current_20251119_034642.csv
+
+======================================================================
+SAMPLE DATA (First 10 members)
+======================================================================
+              name                      party             state  numberOfSons  numberOfDaughters
+  Prem Chand Gupta       Rashtriya Janata Dal             Bihar           2.0                1.0
+       Kapil Sibal       Independent & Others     Uttar Pradesh           2.0                NaN
+   Ram Gopal Yadav            Samajwadi Party     Uttar Pradesh           2.0                1.0
+     Rajeev Shukla   Indian National Congress      Chhattisgarh           NaN                1.0
+      Tiruchi Siva  Dravida Munnetra Kazhagam        Tamil Nadu           1.0                2.0
+      Praful Patel Nationalist Congress Party       Maharashtra           1.0                3.0
+       Nabam Rebia     Bharatiya Janata Party Arunachal Pradesh           2.0                2.0
+  Renuka Chowdhury   Indian National Congress         Telangana           NaN                2.0
+    H.D. Devegowda       Janata Dal (Secular)         Karnataka           4.0                2.0
+Bhubaneswar Kalita     Bharatiya Janata Party             Assam           2.0                NaN
+
+STATISTICS
+======================================================================
+Total RS members found: 234
+Members with family data: 118
+Total sons: 153
+Total daughters: 165
+Total children: 318
+Sex ratio (sons/daughters): 0.927
+Proportion daughters: 0.519
+
+======================================================================
+SUCCESS!
+======================================================================
+
+Collected 234 Rajya Sabha members
+Data saved to: /home/user/missing_daughters_of_pols/scripts/data_collection/../../data/rajya_sabha/rs_current_20251119_034642.csv
+

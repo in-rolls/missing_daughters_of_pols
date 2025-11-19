@@ -1,0 +1,477 @@
+mpcode,name,party,state,numberOfSons,numberOfDaughters,spouse,qualification,dateOfBirth,profession
+10,Prem Chand Gupta,Rashtriya Janata Dal,Bihar,2.0,1.0,Shrimati Sarla Gupta,"Graduate (Economics) 
+Educated at Vaish College, Bhiwani and D.N. College, Hissar, Haryana",1950-02-03T00:00:00,
+74,Kapil Sibal,Independent & Others,Uttar Pradesh,2.0,,Shrimati Promilaa Sibal,"M.A. (History) from St.Stephen's College, University of Delhi
+LL.M. from Harvard Law School, U.S.A.",1948-08-08T00:00:00,
+109,Ram Gopal Yadav,Samajwadi Party,Uttar Pradesh,2.0,1.0,Late Shrimati Phoolan Devi,"M.Sc. (Physics), M.A. (Political Science), Ph.D.
+Educated at Agra University, Agra and Kanpur University, Kanpur",1946-06-29T00:00:00,
+175,Rajeev Shukla,Indian National Congress,Chhattisgarh,,1.0,Shrimati Anuradha Prasad Shukla,"M.A., LL.B. 
+Educated at P.P.N. College, Kanpur University, Christ Church College, Kanpur University and V.S.S.D. College of Law, Kanpur University",1957-07-20T00:00:00,
+177,Tiruchi Siva,Dravida Munnetra Kazhagam,Tamil Nadu,1.0,2.0,Shrimati S.Devikarani,"M.A. (Eng.), B.L.
+Educated at Periyar E.V.R. College, Madras University and Tiruchi Law College, Bharathidasan University",1954-05-15T00:00:00,
+208,Praful Patel,Nationalist Congress Party,Maharashtra,1.0,3.0,Shrimati Varsha Patel,"B.Com.	
+Educated at Bombay University, Mumbai, Maharashtra",1957-02-17T00:00:00,
+238,Nabam Rebia,Bharatiya Janata Party,Arunachal Pradesh,2.0,2.0,Shrimati Nabam Dumsap,"B.A. (Hons.), LL.B. 
+Educated at  J.N. College, Pasighat (Arunachal Pradesh), Panjab University and  Delhi University",1962-08-10T00:00:00,
+503,Renuka Chowdhury,Indian National Congress,Telangana,,2.0,Shri S. Chowdhury,"Post Graduate (Master in Industrial Psychology)
+Educated at Karnataka University, Bangalore, Karnataka",1954-08-13T00:00:00,
+870,H.D. Devegowda,Janata Dal (Secular),Karnataka,4.0,2.0,Shrimati Chennamma,"Diploma in Civil Engineering
+Educated at Smt. L.V. Polytechnic, Hassan, Karnataka",1933-05-18T00:00:00,
+1034,Bhubaneswar Kalita,Bharatiya Janata Party,Assam,2.0,,Shrimati Rwitticka Kalita,"M.A., LL.B.
+Educated at Gauhati University, Assam",1951-04-01T00:00:00,
+1866,G.K. Vasan,Tamil Maanila Congress (Moopanar),Tamil Nadu,1.0,,Shrimati Sunitha Vasan,"B.A. (Corporate Secretaryship)
+Educated at The New College, Madras University, Chennai",1964-12-28T00:00:00,
+1929,Abdul Wahab,Indian Union Muslim League,Kerala,4.0,,Shrimati Yasmine Wahab,"Educated at Government Manavedan High 					School, Nilambur and MES College, Mampad, 				Kerala",1950-07-01T00:00:00,
+1935,Jairam Ramesh,Indian National Congress,Karnataka,2.0,,Shrimati K.R. Jayashree,"B.Tech., M.S. and Graduate Study 
+Educated at I.I.T., Bombay, Carnegie Mellon University, U.S.A. and M.I.T., U.S.A.",1954-04-09T00:00:00,
+1945,Sanjay Raut,Shiv Sena-Uddhav Balasaheb Thackeray,Maharashtra,,2.0,Shrimati Varsha Raut,"B. Com. 
+Educated at Mumbai University, Mumbai, Maharashtra",1961-11-15T00:00:00,
+1964,Jaya Amitabh Bachchan,Samajwadi Party,Uttar Pradesh,1.0,1.0,Shri Amitabh Bachchan,"Studied at St Joseph’s Convent School, Bhopal and
+				Graduated from Film & Television Institute of India, Pune, Maharashtra",1948-04-09T00:00:00,
+2029,Abhishek Manu Singhvi,Indian National Congress,Telangana,2.0,,Shrimati Anita Singhvi,"B.A. (Hons.), M.A., Ph.D., PIL
+Educated at St. Columba’s School, Delhi, 
+St. Stephen’s College, Delhi University, 
+Trinity College, University of Cambridge, U.K. and Harvard University, U.S.A. (only short summer programme)",1959-02-24T00:00:00,
+2064,Birendra Prasad Baishya,Asom Gana Parishad,Assam,,1.0,Shrimati Bandita Baruah Baishya,"B.A. (Hons.), M.A. (Economics)
+Educated at Gauhati University, Guwahati, Assam",1956-01-29T00:00:00,
+2081,Parimal Nathwani,Yuvajana Sramika Rythu Congress Party,Andhra Pradesh,1.0,,Shrimati Varsha Nathwani,"Professional Doctorate in Management
+Educated at National Institute of Management, Ahmedabad, Gujarat",1956-02-01T00:00:00,
+2168,Upendra Kushwaha,Rashtriya Lok Morcha,Bihar,1.0,1.0,Shrimati Snehlata,"B.Sc., M.A. (Political Science)
+Educated at Patna Science College, Patna and B.R. Ambedkar Bihar University, Muzaffarpur, Bihar",1960-02-06T00:00:00,
+2181,Derek O' Brien,All India Trinamool Congress,West Bengal,,1.0,Dr. Tonuca Basu,"B.A. 
+Educated at St. Xavier's School, Kolkata; St. Columba's School, Delhi and Scottish Church College, Kolkata, West Bengal",1961-03-13T00:00:00,
+2184,Sukhendu Sekhar Ray,All India Trinamool Congress,West Bengal,,1.0,Late Shrimati Mahashweta Ray,"M.A., LL.B.
+Educated at Kalindri High School, Malda, St. Paul's College, Rabindra Bharati University and Calcutta University, Kolkata",1949-04-05T00:00:00,
+2198,Mohammed Nadimul Haque,All India Trinamool Congress,West Bengal,1.0,1.0,Shrimati Farah Khan,"B.A. (Hons.) Political Science 
+Educated at St. Xavier's College, University of Calcutta, West Bengal",1969-09-20T00:00:00,
+2204,Jagat Prakash Nadda,Bharatiya Janata Party,Gujarat,2.0,,Dr. Mallika Nadda,"B.A., LL.B.
+Educated at St. Xaviers School, Patna, 
+Patna College, Patna University and Himachal Pradesh University, Shimla",1960-12-02T00:00:00,
+2236,Rajani Ashokrao Patil,Indian National Congress,Maharashtra,2.0,1.0,Shri Ashok Patil,"B.A. (German Language)
+Educated at University of Pune, Pune
+Maharashtra",1958-12-05T00:00:00,
+2245,Pramod Tiwari,Indian National Congress,Rajasthan,,2.0,Late Dr. Alka Tiwari,"B.Sc., LL.B.
+Educated at Ewing Christian College, Allahabad and Allahabad University",1951-07-16T00:00:00,
+2247,K.T.S. Tulsi,Indian National Congress,Chhattisgarh,,2.0,Shrimati Suman Tulsi,"B.A. (Hons.) Political Science, LL.B. 
+Educated at Government College, Chandigarh and Panjab University, Chandigarh",1947-11-07T00:00:00,
+2248,Ramdas Athawale,Republican Party of India (ATHAWALE),Maharashtra,1.0,,Shrimati Seema  Ramdas Athawale,"Under Graduate
+Educated at Siddharth College, Mumbai, Maharashtra",1959-12-25T00:00:00,
+2251,Sharad Pawar,Nationalist Congress Party-SHARADCHANDRA PAWAR,Maharashtra,,1.0,Shrimati Pratibha Pawar,Undergraduate,1940-12-12T00:00:00,
+2263,Ritabrata Banerjee,All India Trinamool Congress,West Bengal,,,Shrimati Durba Sen,"M.A. (English)
+Educated at South Point High School, Asutosh College and University of Calcutta, Kolkata, West Bengal",1979-11-15T00:00:00,
+2268,Ram Nath Thakur,Janata Dal (United),Bihar,,3.0,Shrimati Asha Rani,"Intermediate (Arts)
+Educated at G.K.P. College, Samastipur, L.N.M. University, Darbhanga, Bihar",1950-03-03T00:00:00,
+2269,Harivansh,Janata Dal (United),Bihar,1.0,1.0,Shrimati Asha Singh,"B.A., M.A. (Economics), Diploma in Journalism   
+Educated at Banaras Hindu University, Varanasi, Uttar Pradesh",1956-06-30T00:00:00,
+2279,Digvijaya Singh,Indian National Congress,Madhya Pradesh,1.0,3.0,Shrimati Amrita Rai,"B.E. 
+Educated at Shri G.S. Institute of Technology and Science, Indore, Madhya Pradesh",1947-02-28T00:00:00,
+2288,Nirmala Sitharaman,Bharatiya Janata Party,Karnataka,,1.0,Dr. Parakala Prabhakar,"M.A. (Economics), M.Phil,
+Educated at Seethalakshmi Ramaswamy College, Tiruchirapalli, Tamil Nadu and 
+Jawaharlal Nehru University, New Delhi",1959-08-18T00:00:00,
+2295,Javed Ali Khan,Samajwadi Party,Uttar Pradesh,1.0,1.0,Shrimati Asima Kishwar,"M.A., Diploma in Civil Engineering 
+Educated at Jamia Millia Islamia, New Delhi and Osmania University, Hyderabad, Telangana",1962-10-31T00:00:00,
+2297,Neeraj Shekhar,Bharatiya Janata Party,Uttar Pradesh,,2.0,Dr. Sushma Shekhar,"B.A. (Hons.) 
+Educated at Atmaram Sanatan Dharma College (ARSD), New Delhi",1968-11-10T00:00:00,
+2307,Dola Sen,All India Trinamool Congress,West Bengal,,,,"B.Sc. (Mathematics)
+Educated at Calcutta University, Kolkata",1967-03-26T00:00:00,
+2333,Vivek K. Tankha,Indian National Congress,Madhya Pradesh,1.0,1.0,Shrimati Aarti Tankha,"B.A., LL.B.
+Educated at University of Delhi",1956-09-21T00:00:00,
+2343,P. Chidambaram,Indian National Congress,Tamil Nadu,1.0,,Shrimati  Nalini Chidambaram,"B.Sc., B.L., M.B.A.
+Educated at University of Madras, Chennai, Tamil Nadu and Harvard University, Boston, Massachusetts (U.S.A.)",1945-09-16T00:00:00,
+2351,Sanjay Seth,Bharatiya Janata Party,Uttar Pradesh,1.0,1.0,Shrimati Leena Seth,"B.Com
+Educated at Lucknow University, Lucknow, Uttar Pradesh",1961-02-10T00:00:00,
+2353,Surendra Singh Nagar,Bharatiya Janata Party,Uttar Pradesh,2.0,1.0,Shrimati Rakhi Nagar,"B.Com
+Educated at SSV (PG) College Hapur, Ghaziabad (Uttar Pradesh)",1965-05-10T00:00:00,
+2371,Hardeep Singh Puri,Bharatiya Janata Party,Uttar Pradesh,,2.0,Shrimati Lakshmi Puri,"B.A. (Hons.) History, First in order of Merit; M.A.(History), First class
+Educated at University of Delhi, Delhi",1952-02-15T00:00:00,
+2372,Sanjay Singh,Aam Aadmi Party,National Capital Territory of Delhi,1.0,1.0,Shrimati Anita Singh,"Diploma in Mining Engineering 
+Educated at Orissa School of Mining Engineering, Keonjhar (Odisha)",1972-03-23T00:00:00,
+2374,Narain Dass Gupta,Aam Aadmi Party,National Capital Territory of Delhi,1.0,2.0,Late Shrimati Veena Gupta,"B.Com. (Hons.), Chartered Accountancy
+Educated at Shri Ram College of Commerce, University of Delhi, Delhi and The Institute of Chartered Accountants of India, Delhi",1945-10-16T00:00:00,
+2377,Akhilesh Prasad Singh,Indian National Congress,Bihar,1.0,1.0,Shrimati Veena Singh,"M.A. (Eng.), M.Sc., Ph.D.
+Educated at Patna University, Patna, Bihar",1962-01-05T00:00:00,
+2379,Manoj Kumar Jha,Rashtriya Janata Dal,Bihar,,2.0,Shrimati Namrata Jha,"M.A. (Social Work), Ph.D.
+Educated at University of Delhi, Delhi",1967-08-05T00:00:00,
+2384,G.C. Chandrashekhar,Indian National Congress,Karnataka,1.0,1.0,Dr. Sudha Chandrashekar,"M.A. (Public Administration)
+Educated at Periyar University, Salem, Tamil Nadu",1963-02-12T00:00:00,
+2386,Syed Naseer Hussain,Indian National Congress,Karnataka,2.0,,Shrimati Mehnaz Ansari,"M.A. (Political Science), M.Phil. (International Studies), Ph.D. (International Studies)
+Educated at St. Philomena's College, Mysore, University of Mysore, Mysore and Jawaharlal Nehru  University, New Delhi",1970-06-10T00:00:00,
+2416,Jose K. Mani,Kerala Congress (M),Kerala,1.0,2.0,Shrimati  Nisha Jose,"B.Com., M.B.A. 
+Educated at Loyola College, Chennai and P.S.G. College of Technology, Coimbatore, Tamil Nadu",1964-05-29T00:00:00,
+2423,Sasmit Patra,Biju Janata Dal,Odisha,1.0,1.0,Dr. Sweta Millicent Paul,"B.A.(Hons.), LL.B., M.B.A, Ph.D. (Management)
+Educated at Utkal University, Bhubaneswar and Allahabad
+Agricultural Institute (Deemed University), Allahabad,
+Uttar Pradesh",1979-03-23T00:00:00,
+2425,Ashwini Vaishnaw,Bharatiya Janata Party,Odisha,1.0,1.0,Shrimati Sunita Vaishnaw,"B.E., M.Tech., M.B.A. 
+Educated at MBM Engineering College, Jodhpur, Indian Institute of Technology, Kanpur and Wharton Business School, University of Pennsylvania, U.S.A.",1970-07-18T00:00:00,
+2426,S. Jaishankar,Bharatiya Janata Party,Gujarat,2.0,1.0,Shrimati Kyoko Somekawa Jaishankar,"B.Sc., M.A. (Political Science), M.Phil., Ph.D. (International Relations)
+Educated at University of Delhi, Delhi and  Jawaharlal Nehru University, New Delhi",1955-01-09T00:00:00,
+2431,P. Wilson,Dravida Munnetra Kazhagam,Tamil Nadu,1.0,,Thirumathi R. Vanmathi,"B.Sc., B.L.
+Educated at Loyola College, Chennai  and Madras Law College, Chennai,Tamil Nadu",1966-06-06T00:00:00,
+2435,Satish Chandra Dubey,Bharatiya Janata Party,Bihar,,1.0,Shrimati Alka Kumari,"Intermediate
+Educated at T.P. Verma College, Narkatiaganj, West Champaran, Bihar",1975-05-02T00:00:00,
+2436,Sudhanshu Trivedi,Bharatiya Janata Party,Uttar Pradesh,1.0,1.0,Dr. Shalini Trivedi,"Ph.D. (Mechanical Engineering)
+Educated at Dr. A.P.J. Abdul Kalam Technical University (previously U.P. Technical University), Lucknow, Uttar Pradesh",1970-10-20T00:00:00,
+2437,Arun Singh,Bharatiya Janata Party,Uttar Pradesh,1.0,2.0,Shrimati Meenakshi Singh,"B.Com., Chartered Accountant   
+Educated at Allahabad University, Allahabad  and The Institute of  Chartered Accountants  of India,  New Delhi",1965-04-04T00:00:00,
+2438,Ranjan Gogoi,Nominated,Nominated,1.0,1.0,Shrimati Rupanjali Gogoi,"B.A. (Hons.) History, LL.B.
+Educated at University of Delhi, Delhi",1954-11-18T00:00:00,
+2440,Bhagwat Karad,Bharatiya Janata Party,Maharashtra,3.0,,Shrimati Anjali,"M.B.B.S., M.S. (Gen. Surgery),  M.Ch. (Pediatric Surgery), F.C.P.S. (Gen. Surgery)
+Educated at Dr. Babasaheb Ambedkar Marathwada University, Mumbai, College of Physicians and Surgeons, Mumbai University, Mumbai, Maharashtra",1956-07-16T00:00:00,
+2441,Fauzia Khan,Nationalist Congress Party-SHARADCHANDRA PAWAR,Maharashtra,1.0,1.0,Shri Tahseen Ahmed Khan,"S.S.C., B.A., M.A. (English), M.Phil., PGCTE and Ph.D.
+Educated at Marathwada University, Aurangabad, Central Institute of English and Foreign Languages, Hyderabad and Dr. Babasaheb Ambedkar Marathwada University, Aurangabad, Maharashtra",1957-02-19T00:00:00,
+2442,Priyanka Chaturvedi,Shiv Sena-Uddhav Balasaheb Thackeray,Maharashtra,1.0,1.0,Shri Vickram Narendranath Chaturvedi,"B.Com. 
+Educated at Narsee Monjee College of Commerce and Economics, Vile Parle, Mumbai, Maharashtra",1978-11-19T00:00:00,
+2445,Mamata Mohanta,Bharatiya Janata Party,Odisha,1.0,,Shri Bijay Kumar Mohanta,"B.A. 
+Educated at Shri Maa Mahila Mahavidyalaya, Utkal University, Baripada, Odisha",1976-02-20T00:00:00,
+2446,Muzibulla Khan,Biju Janata Dal,Odisha,,1.0,Shrimati Sahida Khatun,,1963-01-13T00:00:00,
+2447,Sujeet Kumar,Bharatiya Janata Party,Odisha,1.0,,Shrimati Swati Kumar,"B.E., LL.B., M.B.A., Master in Public Administration (MPA)
+Educated at Sambalpur University, Burla, Odisha, Oxford University, U.K. and Harvard University, U.S.A.",1975-11-17T00:00:00,
+2449,N.R. Elango,Dravida Munnetra Kazhagam,Tamil Nadu,1.0,1.0,Shrimati Aruna Elango,"B.L.
+Educated at Government Law College, Trichy, Tamil Nadu",1966-07-16T00:00:00,
+2450,Anthiyur P. Selvarasu,Dravida Munnetra Kazhagam,Tamil Nadu,1.0,2.0,Shrimati S. Pappathi,"8th Standard
+Educated at Government Elementary School, Distt. Erode, Tamil Nadu",1955-06-06T00:00:00,
+2451,M. Thambidurai,All India Anna Dravida Munnetra Kazhagam,Tamil Nadu,,2.0,Dr. (Smt.) Banumathi Thambi Durai,"M.A., M.Phil., M.Litt., Ph.D. (Economics)
+Educated at Madras Christian College, 
+Madras University, Chennai, Tamil Nadu",1947-03-15T00:00:00,
+2454,Bikash Ranjan Bhattacharyya,Communist Party of India (Marxist),West Bengal,1.0,,Shrimati Ibha Bhattacharyya,"B.Sc. (Hons.), LL.B.
+Educated at Asutosh College, Calcutta University and   College of Law, University of Calcutta, Kolkata, West Bengal",1951-11-27T00:00:00,
+2455,Mausam B Noor,All India Trinamool Congress,West Bengal,,,Mirza Kayesh Begg,"LL.B.
+Educated at Department of Law, Calcutta University, Kolkata, West Bengal",1979-10-15T00:00:00,
+2456,Subrata Bakshi,All India Trinamool Congress,West Bengal,1.0,,Shrimati Sahana Bakshi,"B.Sc., LL.B.
+Educated at Ashutosh College, Calcutta University, Kolkata and Hazra College of Law, Calcutta University, Kolkata, West Bengal",1950-07-23T00:00:00,
+2457,Ajit Kumar Bhuyan,Independent & Others,Assam,,,,"B.A.
+Educated at Dibrugarh University, Assam",1953-02-01T00:00:00,
+2458,A. D. Singh,Rashtriya Janata Dal,Bihar,,,,"B.A. (Hons.)
+Educated at St. Michael's School, Patna and  Kirori Mal College, University of Delhi",1959-11-10T00:00:00,
+2460,Phulo Devi Netam,Indian National Congress,Chhattisgarh,2.0,,Shri Tulasi Das Netam,"12th  Standard 
+Educated at Jagdalpur,  Chhattisgarh",1972-01-10T00:00:00,
+2462,Ram Chander Jangra,Bharatiya Janata Party,Haryana,2.0,1.0,Shrimati Kamlesh Devi,"Graduate 
+Educated at Govt. College, Rohtak, Haryana",1950-05-08T00:00:00,
+2463,Indu Bala Goswami,Bharatiya Janata Party,Himachal Pradesh,,,,"B.A.
+Educated at Himachal Pradesh University, Shimla, Himachal Pradesh",1967-04-12T00:00:00,
+2464,K.R. Suresh Reddy,Bharat Rashtra Samithi,Telangana,1.0,1.0,Shrimati K. R. Padmaja Reddy,"B.A.
+Educated at Nizam College, Osmania University, Hyderabad, Telangana",1959-05-25T00:00:00,
+2465,Ayodhya Rami Reddy Alla,Yuvajana Sramika Rythu Congress Party,Andhra Pradesh,2.0,,Shrimati Dakshayani Alla,"M.E. (Master of Engineering)
+Educated at College of Engineering, Osmania University Campus, Hyderabad, Telangana",1963-08-01T00:00:00,
+2466,Subhas Chandra Bose Pilli,Yuvajana Sramika Rythu Congress Party,Andhra Pradesh,2.0,1.0,Shrimati Satyanarayanamma,"B.Sc.
+Educated at VSM College, Ramachandrapuram,
+Andhra Pradesh",1950-08-08T00:00:00,
+2469,Narhari Amin,Bharatiya Janata Party,Gujarat,1.0,,Shrimati Nita Narhari Amin,"B.Com., LL.B.
+Educated at Gujarat University, Ahmedabad, Gujarat",1955-06-05T00:00:00,
+2470,Shaktisinh Gohil,Indian National Congress,Gujarat,,,,"Bachelor of Science, Bachelor of Legislative Law, Diploma in Journalism, Masters of Legislative Law (LL.M.)
+Educated at Bhavnagar University, Bhavnagar, Saurashtra University, Rajkot, Gujarat",1960-04-04T00:00:00,
+2471,Ramilaben Becharbhai Bara,Bharatiya Janata Party,Gujarat,1.0,1.0,Shri Vinodbhai  Manjibhai Madia,"B.A. (English), B.Ed.",1953-11-03T00:00:00,
+2472,Deepak Prakash,Bharatiya Janata Party,Jharkhand,1.0,1.0,Shrimati Shiwani Prakash,Masters in Political Science,1960-04-14T00:00:00,
+2474,Sumer Singh Solanki,Bharatiya Janata Party,Madhya Pradesh,1.0,1.0,Shrimati Manjula Solanki,"M.A. (History),  Ph.D.
+Educated at Devi Ahilya Vishwavidyalaya, Indore, Madhya Pradesh",1972-05-01T00:00:00,
+2475,Maharaja Sanajaoba Leishemba,Bharatiya Janata Party,Manipur,1.0,1.0,Shrimati Haobam Anamika Devi,"B.A. (English Hons.)
+Educated at Maharaja Bodhchandra College, Imphal, Manipur",1972-03-01T00:00:00,
+2476,Wanweiroy Kharlukhi,National Peoples Party,Meghalaya,,2.0,Shrimati Corina Lyngdoh,"B.A., M.A., M. Phil., Ph.D.
+Educated at St. Anthony’s College, Shillong and North-Eastern Hill University, Shillong, Meghalaya",1956-11-27T00:00:00,
+2477,Neeraj Dangi,Indian National Congress,Rajasthan,1.0,1.0,Dr. Preeti Soni,"B.E. (Civil)
+Educated at Karnataka Regional Engineering College, Surathkal, Karnataka",1970-02-04T00:00:00,
+2478,Rajendra Gehlot,Bharatiya Janata Party,Rajasthan,1.0,1.0,Shrimati Vimla Gehlot,"Senior Higher Secondary,
+Educated at Ajmer, Rajasthan",1950-11-08T00:00:00,
+2481,Iranna Kadadi,Bharatiya Janata Party,Karnataka,2.0,1.0,Shrimati Sumitra  Iranna Kadadi,"S.S.L.C. 
+Educated at P.J.N. High School, Kalloli, Karnataka",1966-06-01T00:00:00,
+2482,Mallikarjun Kharge,Indian National Congress,Karnataka,3.0,2.0,Shrimati Radhabai Kharge,"B.A., LL.B. 
+Educated at Government Arts and Science College, Gulbarga (Kalaburgi)  and S.S.L. Law College, Gulbarga (Kalaburgi)  Karnataka University, Dharwad, Karnataka",1942-07-21T00:00:00,
+2483,K. Vanlalvena,Mizo National Front,Mizoram,1.0,2.0,Shrimati H. Lalhuapzauvi,"B.Sc. 
+Educated at Pachhunga University College, Aizawl, Mizoram",1970-01-14T00:00:00,
+2487,Geeta alias Chandraprabha,Bharatiya Janata Party,Uttar Pradesh,1.0,1.0,Shri Mukut Singh Shakya,"B.A., M.A.
+Educated at Kanpur University, Bharthana, Uttar Pradesh",1969-11-11T00:00:00,
+2488,Brij Lal,Bharatiya Janata Party,Uttar Pradesh,1.0,2.0,Shrimati Saroj Prasad,"B.Sc.(Physics, Chemistry, Maths) 
+M.Sc.(Maths)
+Educated at Allahabad University, Allahabad, Uttar Pradesh",1954-11-17T00:00:00,
+2489,Ramji,Bahujan Samaj Party,Uttar Pradesh,1.0,1.0,Shrimati Vartika Chaudhary,"M.B.A.
+Educated at Chaudhary Charan Singh, 
+University, Meerut, Uttar Pradesh",1976-06-01T00:00:00,
+2490,Seema Dwivedi,Bharatiya Janata Party,Uttar Pradesh,1.0,,Dr. Arun Kumar Dwivedi,"M.A. 
+Educated at T.D. College, Jaunpur, Uttar Pradesh",1972-03-11T00:00:00,
+2491,B.L. Verma,Bharatiya Janata Party,Uttar Pradesh,1.0,2.0,Shrimati Shanti Devi Verma,"M.A.
+Educated at Sampurnanand Sanskrit University,  Varanasi, Uttar Pradesh",1961-08-07T00:00:00,
+2493,Naresh Bansal,Bharatiya Janata Party,Uttarakhand,2.0,1.0,Shrimati Kshama Bansal,"M.Com.
+Educated at D.A.V. (P.G.) College, Dehradun, Uttarakhand",1955-02-03T00:00:00,
+2494,Narayana Koragappa,Bharatiya Janata Party,Karnataka,,4.0,Shrimati Sudha Narayana,"Graduate
+Educated at Mysore Open University",1952-06-12T00:00:00,
+2497,Mokariya Rambhai,Bharatiya Janata Party,Gujarat,2.0,1.0,Shrimati Shobhnaben Rambhai Mokariya,"B.A., L.LB.
+Educated at Shri K.H. Madhvani Arts and Commerce College and D.D. Kotiyawala Municipal Law College, Saurashtra University, Porbandar, Gujarat",1957-06-01T00:00:00,
+2498,John Brittas,Communist Party of India (Marxist),Kerala,1.0,1.0,Shrimati Sheba Brittas,"B.A., M.A., M. Phil., Ph.D.
+Educated at Calicut University, Kerala and Jawaharlal Nehru University, Delhi",1966-05-15T00:00:00,
+2499,V. Sivadasan,Communist Party of India (Marxist),Kerala,1.0,1.0,Shrimati Shahna Valsan,"B.A.(History), M.A. (History), Ph.D. (History),  Post-doctoral Fellow 
+Educated at PRNSS College, Mattannur, Govt. Brennen College, Thalassery, Kannur University , Centre for Informal Sector and Labour Studies, Jawaharlal Nehru University, Delhi (ICSSR Post Doctoral Fellow), New Delhi",1979-05-04T00:00:00,
+2504,L. Murugan,Bharatiya Janata Party,Madhya Pradesh,2.0,,Dr. C. Kalaiyarasi,"P.G. Diploma in I.P.R.,  LL.B., LL.M. (International Law), Ph.D. ( in law)
+Educated at University of Madras, Chennai, Tamil Nadu",1977-05-29T00:00:00,
+2505,Kanimozhi NVN Somu,Dravida Munnetra Kazhagam,Tamil Nadu,1.0,1.0,,"M.B.B.S., M.S. (Obstetrics and Gynaecology),
+Educated at Kilpauk Medical College, Chennai and Sri Ramachandra Medical College and Research Institute, Chennai, Tamil Nadu",1973-10-18T00:00:00,
+2506,K.R.N. Rajeshkumar,Dravida Munnetra Kazhagam,Tamil Nadu,1.0,1.0,Shrimati R. Poongkodi,"D.C.M., B.A. (Coop.), M.Com.
+Educated at Madras University, Chennai, Tamil Nadu",1977-03-27T00:00:00,
+2507,Sushmita Dev,All India Trinamool Congress,West Bengal,,,,"B.A. (Hons.), Bar-at-Law, Postgraduate Diploma in Professional Legal Skills, LL.M. (Corporate and Commercial Laws)
+Educated at Miranda House, Delhi University; Thames Valley University, London; Inns of Courts School of Law, London; Kings College, London University  and City University, London, U.K.",1972-09-25T00:00:00,
+2508,S. Selvaganabathy,Bharatiya Janata Party,Puducherry,,1.0,Shrimati Indra,"B.Sc. (Zoology), M.A. (Sociology), B.Ed., M.Ed. 
+Educated at Tagore Arts College, Madras University, Puducherry, Venkateswara University, Tirupati, Annamalai University, Chidambaram and  Madurai Kamaraj University, Madurai, Tamil Nadu",1957-04-16T00:00:00,
+2510,Pabitra Margherita,Bharatiya Janata Party,Assam,2.0,1.0,Dr. Gayatri Mahanta,"Diploma in Textile Technology 
+Educated at Assam Textile Institute",1974-10-13T00:00:00,
+2511,Rwngwra Narzary,UNITED PEOPLES PARTY (LIBERAL),Assam,1.0,,Dr. Kanery Basumatary,B.A.,1970-03-01T00:00:00,
+2512,Sikander Kumar,Bharatiya Janata Party,Himachal Pradesh,2.0,,Shrimati Jyoti,"B.A., M.A.(Economics),  M.Phil., Ph.D. (UGC - NET cleared) 
+Educated at Himachal Pradesh University, Shimla, Himachal Pradesh",1968-04-10T00:00:00,
+2513,Jebi Mather Hisham,Indian National Congress,Kerala,1.0,,Dr. Hisham Ahammed,"B.A., LL.B., LL.M.
+Educated at M.S. Ramaiah College of Law, Bangalore and Cochin University of Science and Technolgy (CUSAT), Ernakulam, Kerala",1978-08-19T00:00:00,
+2514,A. A. Rahim,Communist Party of India (Marxist),Kerala,2.0,,Shrimati Amrutha Satheesan,"M.A., LL.B.
+Educated at University College,  Thiruvananthapuram and  Kerala Law Academy,  Law College, Thiruvananthapuram, Kerala",1980-05-09T00:00:00,
+2515,Sandosh Kumar P,Communist Party of India,Kerala,1.0,1.0,Dr. Lalitha M.,"B.A. (Economics), LL.B.
+Educated at S.N. College, Calicut University and Kerala Law Academy Law College, University of Kerala, Thiruvananthapuram",1971-08-09T00:00:00,
+2516,S. Phangnon Konyak,Bharatiya Janata Party,Nagaland,,1.0,,"M.A. (English Literature)
+Educated at University of Delhi",1978-02-05T00:00:00,
+2518,Ashok Kumar Mittal,Aam Aadmi Party,Punjab,1.0,1.0,Shrimati Rashmi Mittal,"LL.B.
+Educated at University Regional Campus, Jalandhar, Guru Nanak Dev University, Amritsar, Punjab",1964-09-10T00:00:00,
+2520,Harbhajan Singh,Aam Aadmi Party,Punjab,1.0,1.0,Shrimati Geeta Rani Basra,Higher Secondary,1980-07-03T00:00:00,
+2521,Sandeep Kumar Pathak,Aam Aadmi Party,Punjab,,,Shrimati Tejus Pathak,"B.Sc., M.Sc., P.G. Diploma, Ph.D.
+Educated at Guru Ghasidas University (GGU), Bilaspur, Chhattisgarh, CIPET, Hyderabad, Andhra Pradesh and University of Cambridge, Cambridge, U.K.",1979-10-04T00:00:00,
+2522,Raghav Chadha,Aam Aadmi Party,Punjab,,,,"B.Com., Chartered Accountancy
+Educated at University of Delhi and Institute of Chartered Accountants of India, Delhi",1988-11-11T00:00:00,
+2524,Ravi Chandra Vaddiraju,Bharat Rashtra Samithi,Telangana,1.0,1.0,Shrimati Vaddiraju Vijayalakshmi,Intermediate,1964-03-22T00:00:00,
+2525,Niranjan Bishi,Biju Janata Dal,Odisha,1.0,1.0,Shrimati Nilanchi Bishi,"B.A., LL.B., Post Graduate Diploma in Industrial Relation and Personnel Management
+Educated at Sambalpur University, Odisha",1968-10-12T00:00:00,
+2526,S Niranjan Reddy,Yuvajana Sramika Rythu Congress Party,Andhra Pradesh,1.0,1.0,Shrimati  Vaidehi Reddy Sirgapoor,"LL.B.
+Educated at Symbiosis Law College, Pune, Maharashtra",1970-07-22T00:00:00,
+2527,Masthan Rao Yadav Beedha,Telugu Desam Party,Andhra Pradesh,1.0,1.0,Shrimati Beeda Venkata Manjula,"B.Com., C.A.
+Educated at Sri Venkateswara University, Nellore and Institute of Chartered Accountants of India, Madras, Tamil Nadu",1958-07-02T00:00:00,
+2528,Ryaga Krishnaiah,Bharatiya Janata Party,Andhra Pradesh,,,Shrimati R. Shabari,"B. Com., LL.B., M.A., LL.M., M.Phil.
+Educated at P.G College of Law and Osmania University, Hyderabad, Telangana",1954-09-13T00:00:00,
+2529,Damodar Rao Divakonda,Bharat Rashtra Samithi,Telangana,1.0,1.0,Shrimati Swarupa Rani,"B.Com., LL.B. 
+Educated at Osmania University, Hyderabad, Telangana",1958-04-01T00:00:00,
+2530,B. Parthasaradhi Reddy,Bharat Rashtra Samithi,Telangana,1.0,1.0,Shrimati Bandi Kalavathi,"M.Sc. (Organic Chemistry), Ph.D. (Synthetic Organic Chemistry) 
+Educated at SBS college, Sathupalli, SR & BGNR College, Khammam, Telangana and Osmania University, Hyderabad, Telangana",1954-03-06T00:00:00,
+2531,Ranjeet Ranjan,Indian National Congress,Chhattisgarh,1.0,1.0,Shri Rajesh Ranjan,Intermediate,1974-01-07T00:00:00,
+2532,Kavita Patidar,Bharatiya Janata Party,Madhya Pradesh,,1.0,,"B.Sc., LL.B., M.A., Honorary Doctorate Degree awarded by the U.G.C.
+Educated at Government  Post Graduate College, Mhow, Indore and P.M.B. Gujarati Arts and Law College,  Indore, Madhya Pradesh",1974-08-17T00:00:00,
+2533,Sumitra Balmik,Bharatiya Janata Party,Madhya Pradesh,1.0,2.0,Late Shri Gurucharan,"B.A.
+Educated at M.P. Bhoj (Open) University, Bhopal, Madhya Pradesh",1955-07-01T00:00:00,
+2534,S. Kalyanasundaram,Dravida Munnetra Kazhagam,Tamil Nadu,3.0,2.0,Shrimati K. Bhuvaneswari,"S.S.L.C. (dropout)
+Educated at Little Flower Higher Secondary School, Kumbakonam, Tamil Nadu",1940-06-24T00:00:00,
+2535,R. Girirajan,Dravida Munnetra Kazhagam,Tamil Nadu,1.0,1.0,Shrimati G. Mythili,"B.L. (Bachelor of Laws)
+Educated at Dr. Ambedkar Government Law College, Chennai, Tamil Nadu",1961-05-15T00:00:00,
+2536,C. Ve. Shanmugam,All India Anna Dravida Munnetra Kazhagam,Tamil Nadu,1.0,1.0,Shrimati Gowri,"B.L.
+Educated at Law College, Madurai, Tamil Nadu",1965-05-01T00:00:00,
+2537,R. Dharmar,All India Anna Dravida Munnetra Kazhagam,Tamil Nadu,,2.0,Late Shrimati Sivakami,"B.A.
+Educated at Bharathiar University, District Niligiris, Tamil Nadu",1970-04-05T00:00:00,
+2538,Jaggesh,Bharatiya Janata Party,Karnataka,2.0,,Shrimati Parimala,"PUC, B.Sc.
+Educated at Seshadripuram and Vivekananada Degree College, Karnataka",1963-03-17T00:00:00,
+2539,Lahar Singh Siroya,Bharatiya Janata Party,Karnataka,2.0,1.0,Shrimati Shantha Bai Siroya,"B.Sc.
+Educated at Fateh High School and 
+Maharana Bhupal College, Udaipur, Rajasthan",1948-07-14T00:00:00,
+2540,Manas Ranjan Mangaraj,Biju Janata Dal,Odisha,1.0,,Dr. Gayatribala Panda,"M.Sc. (Botany)
+Educated at Berhampur University, Odisha",1971-02-19T00:00:00,
+2541,Sulata Deo,Biju Janata Dal,Odisha,,1.0,Shri Bikram Keshari Deo,"B.A.
+Educated at Sahaspur College,  Utkal University, Bhubaneswar, Odisha",1972-06-13T00:00:00,
+2542,Imran Pratapgarhi,Indian National Congress,Maharashtra,,,,"M.A. (Hindi), Diploma in Journalism
+Educated at Allahabad University, Uttar Pradesh",1987-08-06T00:00:00,
+2543,Anil Sukhdeorao Bonde,Bharatiya Janata Party,Maharashtra,1.0,1.0,Dr. Vasudha Bonde,"M.B.B.S., M.D.
+Educated at Government Medical College, Nagpur, Maharashtra",1960-08-03T00:00:00,
+2544,Dhananjay Bhimrao Mahadik,Bharatiya Janata Party,Maharashtra,3.0,,Shrimati Arundhati,"B.Com.
+Educated at Rajarshi Chh. Shahu College, Kolhapur and Shivaji University, Kolhapur, Maharashtra",1972-01-15T00:00:00,
+2545,Sant Balbir Singh,Aam Aadmi Party,Punjab,,,,"Pre-University
+Educated at Govt. School Nihaluwal, Distt. Jalandhar, Punjab",1962-02-02T00:00:00,
+2546,Vikramjit Singh Sahney,Aam Aadmi Party,Punjab,1.0,1.0,Shrimati Daizy Paramjit Kaur,"Public Leadership Credential from Harvard Kennedy School, U.S.A., M.A. (Economics), Doctor of Literature (Honoris Causa) from Punjabi University, Patiala, Masters Degree in Economics and Business Administration from Punjab University",1962-02-20T00:00:00,
+2547,Ghanshyam Tiwari,Bharatiya Janata Party,Rajasthan,2.0,1.0,Shrimati Pushpa Tiwari,"B.Com.,  LL.B.
+Educated at  S.K. College, University of Rajasthan, Jaipur, Rajasthan",1947-12-19T00:00:00,
+2548,Randeep Singh Surjewala,Indian National Congress,Rajasthan,2.0,,Shrimati  Gayatri Surjewala,"B. Com. (Hons.),   LL.B., M.A.
+Educated at DAV College, Chandigarh, Faculty of Law, Punjab University, Chandigarh",1967-06-03T00:00:00,
+2549,Mukul Balkrishna Wasnik,Indian National Congress,Rajasthan,1.0,1.0,Shrimati Ravina Khurana,"M.A., M.B.A.
+Educated at St. Francis De'Sales High School, Nagpur, Hislop College and Department of Business Management, Nagpur University, Nagpur, Maharashtra",1959-09-27T00:00:00,
+2551,Jayant Chaudhary,Rashtriya Lok Dal,Uttar Pradesh,,2.0,Shrimati Charu Singh,"B.Com. (Hons.), M.Sc. (Accounting and Finance) 
+Educated at Shri Venkateshwara College, Delhi University and London School of Economics and Political Science, London, U.K.",1978-12-27T00:00:00,
+2553,Darshana Singh,Bharatiya Janata Party,Uttar Pradesh,1.0,,Shri Rananjay Singh,"M.A.
+Educated at Purvanchal Vishwavidyalaya, Jaunpur, Uttar Pradesh",1974-07-10T00:00:00,
+2554,Baburam Nishad,Bharatiya Janata Party,Uttar Pradesh,1.0,1.0,Shrimati Neetu Nishad,"B.A., LL.B.
+Educated at Bundelkhand University,  Jhansi, 
+Uttar Pradesh",1969-08-15T00:00:00,
+2555,Mithlesh Kumar,Bharatiya Janata Party,Uttar Pradesh,2.0,1.0,Shrimati Shakuntala Devi,"B.Sc.
+Educated at Bareily College, Uttar Pradesh",1964-11-05T00:00:00,
+2556,Radha Mohan Das Agrawal,Bharatiya Janata Party,Uttar Pradesh,,1.0,Shrimati Ragini Agrawal,"M.B.B.S., M.D.
+Educated at Department of Pediatrics,  Institute of Medical Sciences, Banaras Hindu University, Varanasi, Uttar Pradesh",1955-03-06T00:00:00,
+2557,K. Laxman,Bharatiya Janata Party,Uttar Pradesh,1.0,2.0,Shrimati Kova Uma,"B.Sc., M.Sc. (Geology) and Ph.D.  (Geology)
+Educated at Osmania University, Hyderabad, Telangana",1956-07-03T00:00:00,
+2558,Laxmikant Bajpayee,Bharatiya Janata Party,Uttar Pradesh,1.0,3.0,Dr. Madhu Bajpai,"B.Sc., B.A.M.S.
+Educated at Meerut University, Kanpur University and  Rishikul Rajakiya Ayurvedic College,  Haridwar, Uttarakhand",1951-07-20T00:00:00,
+2559,Sangeeta Yadav,Bharatiya Janata Party,Uttar Pradesh,1.0,,Shri Ajay Kumar,"LL.B.
+Educated at Chaudhary Charan Singh University, Meerut, Uttar Pradesh",1981-07-20T00:00:00,
+2560,Kalpana Saini,Bharatiya Janata Party,Uttarakhand,1.0,1.0,Dr. Nathi Ram Saini,"B.Ed, M.A. (Sanskrit), M.A. (Hindi), Ph.D. (Sanskrit)
+Educated at University of Rajasthan, Jaipur, Chaudhary Charan Singh University, Meerut, (Uttar Pradesh) and Gurukul Kangri University, Haridwar,  Uttarakhand",1959-10-01T00:00:00,
+2561,Khiru Mahto,Janata Dal (United),Bihar,2.0,1.0,Late Shrimati Murti Devi,"Matriculation
+Educated at Hindi Vidhyapith, Deoghar 
+(then Bihar)",1953-01-01T00:00:00,
+2562,Faiyaz Ahmad,Rashtriya Janata Dal,Bihar,2.0,1.0,Shriamti Nikhat Rayazi,"B.A.,  M.A. (Sociology), Ph.D. (Sociology) 
+Educated at L.N.M.U., Darbhanga, Bihar",1963-12-25T00:00:00,
+2563,Shambhu Sharan Patel,Bharatiya Janata Party,Bihar,1.0,2.0,Shrimati Anju Patel,"Graduate
+Educated at Magadh University, Bihar",1982-02-20T00:00:00,
+2564,Aditya Prasad,Bharatiya Janata Party,Jharkhand,1.0,1.0,Shrimati Lalita Devi,"M.Com. 
+Educated at Ranchi University, Ranchi, Jharkhand",1963-10-07T00:00:00,
+2565,Mahua Maji,Jharkhand Mukti Morcha,Jharkhand,2.0,,Shri Subodh Kumar Maji,"B.A. (Hons.), M.A. (Sociology), U.G.C. - NET,
+Ph.D. 
+Educated at Ranchi University, Ranchi, Jharkhand",1964-12-10T00:00:00,
+2566,Ilaiyaraaja,Nominated,Nominated,2.0,1.0,Late Shrimati Jeeva,,1943-06-02T00:00:00,
+2567,Dharmasthala Veerendra Heggade,Nominated,Nominated,,1.0,Shrimati Hemavathi V. Heggade,"B.A.
+Educated at Bengaluru, Karnataka",1948-11-25T00:00:00,
+2568,P. T. Usha,Nominated,Nominated,1.0,,Shri Sreenivasan V.,"Pre-degree 
+Educated at Providence Women’s College, Calicut, Kerala",1964-05-20T00:00:00,
+2569,V. Vijayendra Prasad,Nominated,Nominated,1.0,1.0,Late Shrimati Raja Nandini,"B.Sc.
+Educated at Andhra University, Eluru 
+(Andhra Pradesh)",1943-02-01T00:00:00,
+2571,Kartikeya Sharma,Independent & Others,Haryana,1.0,1.0,Shrimati Aishwarya Pandit,"B.Sc. (Business Management)
+Educated at Kings College, University of London, London, U.K.",1981-05-14T00:00:00,
+2572,Gulam Ali,Bharatiya Janata Party,Nominated,3.0,,Shrimati  Viqar-ul-Nisa,"B.E. (Electrical)
+Educated at Government College of Engineering and Technology, Jammu, University of Jammu",1971-03-01T00:00:00,
+2574,Saket Gokhale,All India Trinamool Congress,West Bengal,,,,"Bachelor of Mass Media (Journalism), Teacher of English as a Foreign Language, Certificate in Teaching English to Speakers of Other Languages (CertTESOL) (Level 5-UK Ofqual’s Regulated Qualifications Framework)
+Educated at Wilson College, University of Mumbai, Mumbai, Maharashtra, Prague Schools, Prague, Czech Republic and Trinity College, London, United Kingdom",1987-01-31T00:00:00,
+2575,Sadanand Mhalu Shet Tanavade,Bharatiya Janata Party,Goa,2.0,,Shrimati Snehal Shet Tanavade,"B.Com., M.Com., Diploma in Marketing Management
+Educated at University of Bombay, Shivaji University, Kolhapur, Maharashtra and The Indian Institute of Management and Services, New Delhi",1967-01-31T00:00:00,
+2576,Babubhai Jesangbhai Desai,Bharatiya Janata Party,Gujarat,2.0,1.0,Late Shrimati Ambaben,"SSC
+Educated at Maharana P.J. High School, Jangral, Distt. Patan, Gujarat",1957-06-01T00:00:00,
+2577,Prakash Chik Baraik,All India Trinamool Congress,West Bengal,,,Shrimati Lalita Beck Chik Baraik,"B.Com.
+Educated at University of North Bengal, Siliguri, West Bengal",1980-04-25T00:00:00,
+2578,Samirul Islam,All India Trinamool Congress,West Bengal,,1.0,Shrimati Sabnam Sultana,"B.Sc., M.Sc. (Chemistry)
+Educated at Maharaja Manindra Chandra College, Kolkata and Indian Institute of Technology, Delhi",1987-04-03T00:00:00,
+2579,Kesridevsinh Jhala,Bharatiya Janata Party,Gujarat,,,Shrimati Yogini Kumari,Degree in Tourism and Leisure Management,1982-11-05T00:00:00,
+2580,Nagendra Ray,Bharatiya Janata Party,West Bengal,2.0,1.0,Shrimati Sabitri Ray,Pre-matriculate,1958-10-01T00:00:00,
+2581,Dinesh Sharma,Bharatiya Janata Party,Uttar Pradesh,,,Shrimati Jaya Lakshmi Sharma,"B.Com., M.Com., Ph.D. and Diploma in Public Administration
+Educated at Lucknow University, Lucknow, Uttar Pradesh",1964-01-12T00:00:00,
+2582,Swati Maliwal,Aam Aadmi Party,National Capital Territory of Delhi,,,,"Bachelor of Technology (Information Technology)
+Educated at JSS Academy of Technical Education, Technical University, Noida, Uttar Pradesh",1984-10-15T00:00:00,
+2583,Satnam Singh Sandhu,Bharatiya Janata Party,Nominated,2.0,,Shrimati Damandeep Kaur,"Graduate 
+Educated at Guru Nanak College, Ferozepur Cantt and Guru Nanak College, Moga, Punjab",1969-09-11T00:00:00,
+2584,Dorjee Tshering Lepcha,Bharatiya Janata Party,Sikkim,1.0,1.0,Shrimati Devika Lepcha,"Intermediate 
+Educated from Army School",1957-04-15T00:00:00,
+2585,Sudha Murty,Nominated,Nominated,1.0,1.0,Shri Narayana Murthy,"Masters in Electrical Engineering
+Educated at B.V.B. College of Engineering, Hubli, Indian Institute of Science, Bangalore, Karnataka",1950-08-19T00:00:00,
+2586,Golla Baburao,Yuvajana Sramika Rythu Congress Party,Andhra Pradesh,1.0,1.0,Shrimati Golla Vasantha Kumari,"B.Com., M.A., LL.B.
+Educated at C.R. Reddy College, Eluru, Jabalpur University, Madhya Pradesh and Osmania University, Hyderabad, Telangana",1954-08-10T00:00:00,
+2587,Meda Raghunadha Reddy,Yuvajana Sramika Rythu Congress Party,Andhra Pradesh,2.0,,,"S.S.C.
+Educated at ZPH School, Tangutur(V), Nandalur (M), Kadapa District, Andhra Pradesh",1965-06-18T00:00:00,
+2588,Yerram Venkata Subba Reddy,Yuvajana Sramika Rythu Congress Party,Andhra Pradesh,1.0,,Shrimati Swarnalatha Reddy Yerram,"M.B.A. (Marketing and Finance)
+Educated at Bharathi Vidyapeeth Institute of Management, Solapur and Sivaji University Kolhapur, Maharashtra",1960-05-01T00:00:00,
+2589,Dharmshila Gupta,Bharatiya Janata Party,Bihar,2.0,2.0,Shri Parshuram Gupta,"M.Sc.(Botany), B.Ed.,Ph.D.
+Educated at Lalit Narayan Mithila University, Darbhanga, Bihar",1969-11-27T00:00:00,
+2590,Bhim Singh,Bharatiya Janata Party,Bihar,,2.0,Shrimati Malti Singh,"B.Sc. (Mechanical Engineering), 
+Diploma in Safety Management, 
+LL.B., 
+M.A. (Labour and Social Welfare),
+M.A. (Sociology),
+Ph.D. (Labour and Social Welfare) 
+Educated at Patna University, Patna, Bihar",1962-11-30T00:00:00,
+2591,Sanjay Kumar Jha,Janata Dal (United),Bihar,1.0,2.0,Shrimati Enakshi Jha,"M.A.  
+Educated at Jawaharlal Nehru University, New Delhi",1967-12-01T00:00:00,
+2592,Sanjay Yadav,Rashtriya Janata Dal,Bihar,1.0,2.0,Shrimati Sunishtha,"M.Sc. (Computer Science) 
+Educated at M.C.R.P.  University, Bhopal, Madhya Pradesh, (New Delhi Center)",1984-02-24T00:00:00,
+2593,Devendra Pratap Singh,Bharatiya Janata Party,Chhattisgarh,2.0,,Shrimati Bhawani Devi Singh,"B.A. (Pass), M.A. (History) 
+Educated at Rajkumar College, Raipur, Chhattisgarh, St. Stephen’s College and   South Campus, Delhi University",1964-05-02T00:00:00,
+2594,Govindbhai Laljibhai Dholakia,Bharatiya Janata Party,Gujarat,1.0,2.0,Shrimati Champaben Govindbhai Dholakia,"6th standard
+Educated at Lathi Primary School, Lathi, Gujarat",1947-11-07T00:00:00,
+2595,Parmar Jashvantsinh Salamsinh,Bharatiya Janata Party,Gujarat,1.0,1.0,Shrimati  Kalpnabahen Jashvantsinh Parmar,"M.B.B.S., M.S. 
+Educated at B.J. Medical College, Ahmedabad, Gujarat and N.H.L. Medical College, Ahmedabad, Gujarat",1975-06-15T00:00:00,
+2596,Mayankkumar Nayak,Bharatiya Janata Party,Gujarat,2.0,,Shrimati Meeta Nayak,"Diploma in Mechanical Engineering 
+Educated at T.E.B. Gujarat Government Polytechnic, Ahmedabad, Gujarat",1971-09-18T00:00:00,
+2597,Subhash Barala,Bharatiya Janata Party,Haryana,1.0,1.0,Shrimati Darshna,"Diploma in Engineering, Bachelor of Technology (Civil); M.A. (Political Science), Kurukshetra University
+Currently pursuing Ph.D. (Public Administration) at Kurukshetra University, Haryana.
+Educated at H.M.S. Polytechnic Tumkur, Bengaluru; Sunrise University, Rajasthan and Kurukshetra University, Haryana",1967-12-05T00:00:00,
+2598,Harsh Mahajan,Bharatiya Janata Party,Himachal Pradesh,1.0,1.0,Shrimati Uma Mahajan,"B.Com. (Hons.), P.G. in Business Administration
+Educated at Shri Ram College of Commerce, Delhi",1955-12-12T00:00:00,
+2599,Ajay Makan,Indian National Congress,Karnataka,1.0,2.0,Shrimati Radhika Maken,"B.A., Post Graduate Diploma in Applied Statistics (PGDAS) with specialisation in Data Analytics
+Educated at University of Delhi, Delhi; Indian Statistical Institute (ISI), Kolkata, West Bengal",1964-01-12T00:00:00,
+2600,Narayanasa K. Bhandage,Bharatiya Janata Party,Karnataka,2.0,3.0,Shrimati Vimala Narayanasa Bhandage,"B.A.
+Educated at B.V.V.S. College, Bagalkot, Karnataka",1951-11-20T00:00:00,
+2601,Ashok Singh,Indian National Congress,Madhya Pradesh,1.0,3.0,Shrimati Rajesh Rani Singh,"B.Com.
+Educated at Jiwaji University, Gwalior, Madhya Pradesh",1963-11-01T00:00:00,
+2602,Balyogi Umeshnath,Bharatiya Janata Party,Madhya Pradesh,,,,Literate,1964-11-19T00:00:00,
+2603,Banshilal Gurjar,Bharatiya Janata Party,Madhya Pradesh,2.0,3.0,Shrimati Ramadevi Gurjar,"M.A. (Political Science)
+Educated at Government P.G. College, Mandsaur, Madhya Pradesh",1960-09-05T00:00:00,
+2604,Maya Naroliya,Bharatiya Janata Party,Madhya Pradesh,1.0,3.0,Shri Vikram Singh Naroliya,"12th Standard
+Educated at Narmadapuram, Hoshangabad (Madhya Pradesh)",1961-06-16T00:00:00,
+2605,Medha Vishram Kulkarni,Bharatiya Janata Party,Maharashtra,1.0,1.0,Shri Vishram Raghunath Kulkarni,"B.Sc., B.Ed., M.Ed.,Ph.D.
+Educated at Abasaheb Garware College, Pune, Adarsh B.Ed. College, Pune, Adarsh Comprehensive College of Research and Education, Pune, S.P.P.U., Pune, Maharashtra",1969-10-30T00:00:00,
+2606,Ajeet Madhavrao Gopchade,Bharatiya Janata Party,Maharashtra,1.0,1.0,Dr. Chetna Ajeet Gopchade,"M.B.B.S., M.D. (Paediatrics)
+Educated at Prativa Niketan High School, Nanded, Maharashtra, Yashwant College Nanded, Maharashtra, Government Medical College, Aurangabad, Maharshtra and Swami Ramanand Teerth Rural Government Medical College, Ambajogai, Maharashtra",1970-11-19T00:00:00,
+2607,Ashokrao Shankarrao Chavan,Bharatiya Janata Party,Maharashtra,,2.0,Shrimati Ameeta Ashok Chavan,"B.Sc., M.B.A.
+Educated at Bombay University, Mumbai and J.D.C. Bytco Institute of Management Studies and Research, Nashik, Maharashtra",1958-10-28T00:00:00,
+2608,Milind Murli Deora,Shiv Sena,Maharashtra,,1.0,Shrimati Pooja Shetty,"Bachelor of Science in Business Administration
+Educated at Boston University, U.S.A.",1976-12-04T00:00:00,
+2609,Chandrakant Damodar Handore,Indian National Congress,Maharashtra,1.0,5.0,Shrimati Sangeeta Chandrakant Handore,"B.A. 
+Educated at  Adarsh Vidyamandir, Chembur and Siddharth College of Arts, Science and  Commerce, Mumbai, Maharastra",1957-03-13T00:00:00,
+2610,Anil Kumar Yadav Mandadi,Indian National Congress,Telangana,2.0,,Shrimati Devika Yadav Mandadi,"B.Com., LL.B.
+Educated at Osmania University, Hyderabad, Telangana",1982-09-09T00:00:00,
+2611,Amar Pal Maurya,Bharatiya Janata Party,Uttar Pradesh,2.0,,Shrimati Rama Kushwaha,"M.A. in Yoga
+Educated at Jain Vishwabharti Institute (Deemed University), Ladnun, Rajasthan",1980-09-11T00:00:00,
+2612,Tejveer Singh,Bharatiya Janata Party,Uttar Pradesh,3.0,1.0,Shrimati Gyan Kumari alias Rajkumari,"Intermediate (XIIth) 
+Educated at Champa Agrawal Inter College, Mathura, Uttar Pradesh",1959-12-02T00:00:00,
+2613,Naveen Jain,Bharatiya Janata Party,Uttar Pradesh,1.0,3.0,Shrimati Renu Jain,"B.A.
+Educated at Dr. Bhim Rao Ambedkar University, Agra, Uttar Pradesh",1962-02-20T00:00:00,
+2614,Ratanjit Pratap Narain Singh,Bharatiya Janata Party,Uttar Pradesh,,3.0,Shrimati Sonia Singh,"B.A. (Honours) History
+Educated at The Doon School, Dehradun and St. Stephens College, Delhi University, Delhi",1964-04-25T00:00:00,
+2615,Ramji Lal Suman,Samajwadi Party,Uttar Pradesh,1.0,3.0,Late Shrimati Premvati Suman,"B.A., LL.B.
+Educated at Agra University, Agra, Uttar Pradesh",1950-07-25T00:00:00,
+2616,Sadhna Singh,Bharatiya Janata Party,Uttar Pradesh,2.0,1.0,Shri Chhabinath,"Graduate
+Educated at Sampurnanand Saraswati University, Uttar Pradesh",1974-08-17T00:00:00,
+2617,Sangeeta Balwant,Bharatiya Janata Party,Uttar Pradesh,2.0,,Shri Awadhesh Kumar Singh,"LL.B, B.Ed., Ph.D.
+Educated at Ghazipur Post Graduate College, Veer Bahadur Singh Purvanchal University, Jaunpur, Uttar Pradesh",1978-10-01T00:00:00,
+2618,Mahendra Bhatt,Bharatiya Janata Party,Uttarakhand,1.0,1.0,Shrimati Munni Devi,"B.Com., M.Com.
+Educated from P.S.K. Inter College, Rishikesh, Uttar Pradesh, Shri Bharat Mandir Inter College, Rishikesh, Uttar Pradesh, Government Post Graduate College, Rishikesh and Hemvati Nandan Bahuguna Garhwal University, Srinagar, Distt. Garhwal, Uttarakhand",1971-08-04T00:00:00,
+2619,Mamata Thakur,All India Trinamool Congress,West Bengal,,3.0,Late Shri Kapil Krishna Thakur,Under Matric,1967-05-15T00:00:00,
+2620,Samik Bhattacharya,Bharatiya Janata Party,West Bengal,,,,"Bachelor of Arts (Pass) 
+Educated at Surendranath College, University of Calcutta, Kolkata, West Bengal",1963-11-05T00:00:00,
+2621,Sagarika Ghose,All India Trinamool Congress,West Bengal,1.0,1.0,Shri Rajdeep Sardesai,"B.A. (Hons.) History, B.A./M.A., M.Phil. in International Relations
+Educated at St. Stephen’s College, Delhi University, Delhi Magdalen College, Oxford University, U.K. and St. Antony’s College, Oxford University, U.K.",1964-11-08T00:00:00,
+2622,Debashish Samantaray,Biju Janata Dal,Odisha,,3.0,Shrimati Bitasta Samantaray,"B.A. (Philosophy)
+Educated at Sri Aurobindo International Centre of Education, Puducherry(studied Philosophy and Economics in French and English medium)",1960-02-11T00:00:00,
+2623,Subhasish Khuntia,Biju Janata Dal,Odisha,1.0,,Shrimati Swapnarani Jena,"B.A., LL.B., M.A.
+Educated at Surajmal Saha College, Puri, Odisha, G.M. Law College (Utkal University), Puri, Odisha and JRN Rajasthan Vidyapith (Deemed University), Udaipur, Rajasthan",1983-07-05T00:00:00,
+2624,Chunnilal Garasiya,Bharatiya Janata Party,Rajasthan,2.0,5.0,Shrimati Laxmi Devi Garasiya,"M.A. 
+Educated at Calorx Teachers’ University, Gujarat",1953-09-05T00:00:00,
+2625,Madan Rathore,Bharatiya Janata Party,Rajasthan,2.0,1.0,Shrimati Usha Rathore,"B.Sc. (Maths)
+Educated at Government Bangur College, Pali, Rajasthan",1954-07-02T00:00:00,
+2626,Sonia Gandhi,Indian National Congress,Rajasthan,1.0,1.0,Late Shri Rajiv Gandhi,"Certificate course in English language, Three year course in Foreign Languages (English and French) 
+Educated at Lennox Cook School, University of Cambridge, U.K. and Istituto Santa Teresa via Santa Teresa 10, Turin, Italy",1946-12-09T00:00:00,
+2627,Pradip Kumar Varma,Bharatiya Janata Party,Jharkhand,1.0,1.0,Shrimati Sarita Varma,"B.Com., M.B.A., M.A. (Hindi), Ph.D. (Hindi)
+Educated at Calcutta University, Kolkata, Vinayaka Missions University, Ranchi, and Sai Nath University, Ranchi, Jharkhand",1972-02-24T00:00:00,
+2628,Sarfraz Ahmad,Jharkhand Mukti Morcha,Jharkhand,1.0,1.0,Shrimati Zainab Ahmed,"B.A. (Hons.), M.A. (Political Science), Ph.D., Diploma in Foreign Affairs (Department of Law) 
+Educated at Aligarh Muslim University, Aligarh, Uttar Pradesh and Ranchi University, Jharkhand",1953-12-15T00:00:00,
+2629,Sunetra Ajit Pawar,Nationalist Congress Party,Maharashtra,2.0,,Shri Ajit Anantrao Pawar,"B.Com.
+Educated at S.B. College, Aurangabad, Maharashtra",1963-10-18T00:00:00,
+2630,P. P. Suneer,Communist Party of India,Kerala,1.0,2.0,Shrimati K.A.Shahina,"B.A., M.A. (Political Science)
+Educated at Sree Kerala Varma College, Thrissur, Kerala",1968-05-31T00:00:00,
+2631,Haris Beeran,Indian Union Muslim League,Kerala,2.0,,Shrimati Majda Tahaani Haris,"LL.B.
+Educated at Government Law College, Ernakulam, Kerala",1976-01-30T00:00:00,
+2633,Rameswar Teli,Bharatiya Janata Party,Assam,,,,"10th Pass
+Educated at Tipling Ghat High School, Duliajan, Assam",1970-08-14T00:00:00,
+2634,Manan Kumar Mishra,Bharatiya Janata Party,Bihar,3.0,,Late Shrimati Siddhidatry Mishra,"B.Sc. (Hons.), LL.B.
+Educated at V. M. College, Gopalganj, Rajendra College, Chhapra and Patna Law College, Patna, Bihar",1956-11-01T00:00:00,
+2635,Kiran Choudhry,Bharatiya Janata Party,Haryana,,1.0,Late Ch. Surender Singh,"B.A., LL.B.
+Educated at Adarsh College, Bhiwani, Haryana and Punjab University, Chandigarh",1955-06-05T00:00:00,
+2636,George Kurian,Bharatiya Janata Party,Madhya Pradesh,2.0,,Shrimati O.T. Annamma,"Bachelor of Legislative Law(LL.B.) 
+Educated at School of Indian Legal Thought, MG University, Kottayam, Kerala",1960-09-20T00:00:00,
+2637,Dhairyashil Mohan Patil,Bharatiya Janata Party,Maharashtra,,2.0,Shrimati Nilima Dhairyashil Patil,"B.E. Civil
+Educated at Mumbai University, Mumbai, Maharashtra",1971-03-22T00:00:00,
+2638,Nitin Laxmanrao Jadhav Patil,Nationalist Congress Party,Maharashtra,2.0,,Shrimati Pratima Nitin Jadhav Patil,"Diploma in Pharmacy
+Educated at Satara Polytechnic College, Satara, Maharashtra",1968-02-12T00:00:00,
+2639,Ravneet Singh,Bharatiya Janata Party,Rajasthan,1.0,,Shrimati Anupama Jhajj,"B.C.A. 
+Educated at Guru Nanak Public School, Government College, Chandigarh and Eastern Institute of Integrated Learning in Management University",1975-09-10T00:00:00,
+2640,Rajib Bhattacharjee,Bharatiya Janata Party,Tripura,,2.0,Shrimati Soma Bhattacharjee,"12th 
+Educated at Chhattisgarh",1972-08-31T00:00:00,
+2641,Sana Sathish Babu,Telugu Desam Party,Andhra Pradesh,,,Shrimati Sana Naga Jyothi,Diploma in Mechanical Engineering,1972-08-19T00:00:00,
+2642,Rekha Sharma,Bharatiya Janata Party,Haryana,,2.0,Lieutenant Colonel Vikram Sharma,"B.A., Post Graduate Diploma in Human Rights, Diploma in Marketing, Advertising Management and Diploma in Fashion Designing  
+Educated at D.A.V. College, Dehradun, Uttarakhand, Indian Institute of Human Rights, New Delhi, Institute of Technology and Future Management Trends (ITFT), Chandigarh and South Delhi Polytechnic for Women, New Delhi",1963-09-01T00:00:00,
+2644,Kanad Purkayastha,Bharatiya Janata Party,Assam,1.0,1.0,Shrimati Taramoni Purkayastha,"B.Sc. (Life Science)
+Educated at Gurucharan College, Gauhati University,
+Silchar, Assam",1968-02-22T00:00:00,
+2646,C. Sadanandan Master,Bharatiya Janata Party,Nominated,,1.0,Shrimati Vanitharani T.,"B.Com., B.Ed.
+Educated at Calicut University, Calicut, Kerala and Gauhati University, Tezpur, Assam",1964-05-01T00:00:00,
+2647,Harsh Vardhan Shringla,Bharatiya Janata Party,Nominated,1.0,,,"B.A. (Hons.) History, Course on Conflict Prevention
+Educated at St. Stephen’s College, University of Delhi
+and Columbia University, New York",1962-05-01T00:00:00,
+2648,Meenakshi Jain,Nominated,Nominated,1.0,,Late Shri O.P. Bakshi,"B.A, M.A, M.Phil., Ph.D.
+Educated at University of Delhi, Delhi",1953-07-09T00:00:00,
+2649,Kamal Haasan,Makkal Needhi Maiam,Tamil Nadu,,2.0,,"8th Standard 
+Educated at Sir M. Ct. Muthiah Chettiar Boys Higher Secondary School, Chennai, Tamil Nadu",1954-11-07T00:00:00,
+2653,M. Dhanapal,All India Anna Dravida Munnetra Kazhagam,Tamil Nadu,1.0,,Shrimati D. Gayathri Dhanapal,"B.Com, B.L., M.A. (Eco.), M.L., PGDCA, M.B.A. (HR), M.S.W., Ph.D. 
+Educated at S.I.V.E.T. College, Chennai, Law College, Madurai, University of Madras, Chennai, Madurai Kamaraj University, Madurai, Annamalai University, Chidambaram and Tamil Nadu Open University, Chennai, Tamil Nadu",1958-09-03T00:00:00,
