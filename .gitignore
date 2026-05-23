@@ -2,3 +2,10 @@
 data/.DS_Store
 .DS_Store
 scripts/.ipynb_checkpoints/delhi-checkpoint.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
